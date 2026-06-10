@@ -6,7 +6,7 @@ const SITE_LANG = "zh_CN";
 export const siteConfig: SiteConfig = {
 	title: "Estars的博客",
 	subtitle: "这条路要走完，才能看到世界的终点，是海纳百川，还是星火燎原。",
-	site_url: "https://example.pages.dev",
+	site_url: "https://estars-blog.pages.dev",
 	description:
 		"Estars的博客，基于 Firefly 与 Astro 搭建的个人博客。",
 	keywords: ["Estars", "博客", "Astro", "Firefly", "Cloudflare Pages"],
@@ -24,7 +24,7 @@ export const siteConfig: SiteConfig = {
 	navbar: {
 		logo: {
 			type: "image",
-			value: "assets/images/firefly.png",
+			value: "/uploads/brand/站点LOGO.jpg",
 			alt: "Estars的博客",
 		},
 		title: "Estars的博客",
