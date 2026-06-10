@@ -1,5 +1,5 @@
 ---
-title: "面经库｜大模型 大模型transformer高频面试题"
+title: "面经库｜大模型Transformer高频面试题"
 published: 2026-06-10
 description: "# 大模型 & Transformer 高频面试题及答案 > 🎯 适用岗位：算法工程师、AI 应用开发、大模型研发 > 📅 整理日期：2026-06-07 > 💬 答案按面试口语化写，直接照着说就行 --- ## 一、Transformer"
 tags: ["面经", "面经库", "大模型"]

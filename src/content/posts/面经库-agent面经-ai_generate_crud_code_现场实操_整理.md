@@ -1,5 +1,5 @@
 ---
-title: "面经库｜AI generate crud code 现场实操 整理"
+title: "面经库｜AI Generate CRUD Code 现场实操 整理"
 published: 2026-06-10
 description: "# AI_Generate_CRUD_Code_现场实操 ## 问题 AI_Generate_CRUD_Code_现场实操 ## 标准回答 # 现场实操：给定数据Schema生成符合RESTful规范的CRUD接口代码 这是一道典型的现场实"
 tags: ["面经", "面经库", "agent面经"]

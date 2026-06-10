@@ -1,5 +1,5 @@
 ---
-title: "面经库｜现场实操 给定一个包含数据schema的api文档 请使用ai工具在15分钟内生成符合restful规范的crud接口代码 并解释关键实现逻辑 整理"
+title: "面经库｜现场实操：给定一个包含数据Schema的API文档，请使用AI工具在15分钟内生成符合RESTful规范的CRUD接口代码，并解释关键实现逻辑 整理"
 published: 2026-06-10
 description: "# 现场实操：给定一个包含数据Schema的API文档，请使用AI工具在15分钟内生成符合RESTful规范的CRUD接口代码，并解释关键实现逻辑 ## 问题 现场实操：给定一个包含数据Schema的API文档，请使用AI工具？ 15分钟内"
 tags: ["面经", "面经库", "agent面经"]

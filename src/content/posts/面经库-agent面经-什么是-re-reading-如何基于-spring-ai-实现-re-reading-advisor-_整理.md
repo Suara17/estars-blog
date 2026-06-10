@@ -1,5 +1,5 @@
 ---
-title: "面经库｜什么是 re reading 如何基于 spring AI 实现 re reading advisor 整理"
+title: "面经库｜什么是 Re Reading？如何基于 Spring AI 实现 Re Reading Advisor？ 整理"
 published: 2026-06-10
 description: "# 什么是 Re-Reading？如何基于 Spring AI 实现 Re-Reading Advisor？ ## 问题 什么是 Re-Reading？如何基于 Spring AI 实现 Re-Reading Advisor？ ## 标准回"
 tags: ["面经", "面经库", "agent面经"]

@@ -1,5 +1,5 @@
 ---
-title: "面经库｜tool calling springai 整理"
+title: "面经库｜Tool Calling SpringAI 整理"
 published: 2026-06-10
 description: "# Tool_Calling_SpringAI ## 问题 Tool_Calling_SpringAI ## 标准回答 # 什么是工具调用 Tool Calling？ 如何利用 Spring AI 实现工具调用？ **Tool Callin"
 tags: ["面经", "面经库", "agent面经"]

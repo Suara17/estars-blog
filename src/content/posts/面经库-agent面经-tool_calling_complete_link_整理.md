@@ -1,5 +1,5 @@
 ---
-title: "面经库｜tool calling complete link 整理"
+title: "面经库｜Tool Calling Complete Link 整理"
 published: 2026-06-10
 description: "# Tool_Calling_Complete_Link ## 问题 Tool_Calling_Complete_Link ## 标准回答 # Tool Calling（工具调用）完整链路：定义、调用与回传 Tool Calling 的核心"
 tags: ["面经", "面经库", "agent面经"]

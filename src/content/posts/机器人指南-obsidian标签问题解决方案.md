@@ -1,5 +1,5 @@
 ---
-title: "机器人指南｜obsidian标签问题解决方案"
+title: "机器人指南｜Obsidian标签问题解决方案"
 published: 2026-06-10
 description: "# Obsidian 标签问题解决方案 ## 问题描述 在使用 Obsidian 查看小万工作间目录下的文档时，发现两类问题： 1. 十六进制颜色代码（如 `#3B82F6`、`#2563EB`）被 Obsidian 误识别为标签 2. 小"
 tags: ["机器人指南"]

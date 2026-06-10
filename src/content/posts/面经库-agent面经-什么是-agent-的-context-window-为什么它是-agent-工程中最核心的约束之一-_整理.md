@@ -1,5 +1,5 @@
 ---
-title: "面经库｜什么是 Agent 的 context window 为什么它是 Agent 工程中最核心的约束之一 整理"
+title: "面经库｜什么是 Agent 的 Context Window？为什么它是 Agent 工程中最核心的约束之一？ 整理"
 published: 2026-06-10
 description: "# 什么是 Agent 的 Context Window？为什么它是 Agent 工程中最核心的约束之一？ ## 问题 什么是 Agent 的 Context Window？为什么它是 Agent 工程中最核心的约束之一？ ## 标准回答 "
 tags: ["面经", "面经库", "agent面经"]

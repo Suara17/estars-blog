@@ -1,5 +1,5 @@
 ---
-title: "面经库｜gpu concurrency performance analysis 整理"
+title: "面经库｜GPU Concurrency Performance Analysis 整理"
 published: 2026-06-10
 description: "# GPU_Concurrency_Performance_Analysis ## 问题 GPU_Concurrency_Performance_Analysis ## 标准回答 # GPU集群并发访问性能分析：为什么不是简单平均？ 不会简"
 tags: ["面经", "面经库", "agent面经"]

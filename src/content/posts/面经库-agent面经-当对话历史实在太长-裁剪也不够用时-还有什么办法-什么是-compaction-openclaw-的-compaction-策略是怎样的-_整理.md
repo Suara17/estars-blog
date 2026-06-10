@@ -1,5 +1,5 @@
 ---
-title: "面经库｜当对话历史实在太长 裁剪也不够用时 还有什么办法 什么是 compaction openclaw 的 compaction 策略是怎样的 整理"
+title: "面经库｜当对话历史实在太长、裁剪也不够用时，还有什么办法？什么是 Compaction？OpenClaw 的 Compaction 策略是怎样的？ 整理"
 published: 2026-06-10
 description: "# 当对话历史实在太长、裁剪也不够用时，还有什么办法？什么是 Compaction？OpenClaw 的 Compaction 策略是怎样的？ ## 问题 当对话历史实在太长、裁剪也不够用时，还有什么办法？什么是 Compaction？Op"
 tags: ["面经", "面经库", "agent面经"]

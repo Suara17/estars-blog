@@ -1,5 +1,5 @@
 ---
-title: "机器人指南｜Qoder cn Proxy 部署指南"
+title: "机器人指南｜Qoder cn proxy 部署指南"
 published: 2026-06-10
 description: "qoder-cn-proxy 部署指南适用场景在 Android 手机上用 Alpine Linux 运行 qoder-cn-proxy，把手机变成 Qoder CN API 的本地代理，供手机 App、浏览器或 OpenAI 兼容客户端使"
 tags: ["机器人指南"]

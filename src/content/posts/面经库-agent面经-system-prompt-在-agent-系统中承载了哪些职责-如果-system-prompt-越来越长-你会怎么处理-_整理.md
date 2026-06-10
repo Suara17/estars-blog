@@ -1,5 +1,5 @@
 ---
-title: "面经库｜system prompt 在 Agent 系统中承载了哪些职责 如果 system prompt 越来越长 你会怎么处理 整理"
+title: "面经库｜System Prompt 在 Agent 系统中承载了哪些职责？如果 System Prompt 越来越长，你会怎么处理？ 整理"
 published: 2026-06-10
 description: "# System Prompt 在 Agent 系统中承载了哪些职责？如果 System Prompt 越来越长，你会怎么处理？ ## 问题 System Prompt 在 Agent 系统中承载了哪些职责？如果 System Prompt"
 tags: ["面经", "面经库", "agent面经"]

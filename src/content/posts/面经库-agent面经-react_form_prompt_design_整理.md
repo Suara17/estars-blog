@@ -1,5 +1,5 @@
 ---
-title: "面经库｜react form prompt design 整理"
+title: "面经库｜React Form Prompt Design 整理"
 published: 2026-06-10
 description: "# React_Form_Prompt_Design ## 问题 React_Form_Prompt_Design ## 标准回答 # 设计包含上下文约束的 React 表单组件 Prompt 要让大模型生成能直接使用的 React 表单组"
 tags: ["面经", "面经库", "agent面经"]

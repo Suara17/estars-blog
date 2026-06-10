@@ -1,5 +1,5 @@
 ---
-title: "面经库｜springai superagent 应用与特性 整理"
+title: "面经库｜SpringAI SuperAgent 应用与特性 整理"
 published: 2026-06-10
 description: "# SpringAI_SuperAgent_应用与特性 ## 问题 SpringAI_SuperAgent_应用与特性 ## 标准回答 # 你在 AI 超级智能体项目中如何利用 Spring AI 开发应用？ 用到了哪些特性？ ## 标准回"
 tags: ["面经", "面经库", "agent面经"]

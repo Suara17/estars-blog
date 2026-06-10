@@ -1,5 +1,5 @@
 ---
-title: "面经库｜在 RAG 中 你如何选择 embedding model 嵌入模型 需要考虑哪些因素 整理"
+title: "面经库｜在 RAG 中，你如何选择 Embedding Model 嵌入模型，需要考虑哪些因素？ 整理"
 published: 2026-06-10
 description: "# 在 RAG 中，你如何选择 Embedding Model 嵌入模型，需要考虑哪些因素？ ## 问题 在 RAG 中，你如何选择 Embedding Model 嵌入模型，需要考虑哪些因素？ ## 标准回答 在 RAG 中，你如何选择 "
 tags: ["面经", "面经库", "agent面经"]
