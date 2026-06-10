@@ -1,7 +1,7 @@
 ---
-title: "工程现场｜OpenClaw工作原理解析"
+title: "工程现场｜OpenClaw 工作原理解析：从消息输入到完整反馈"
 published: 2026-06-10
-description: "\--- title: \"目前最详细的OpenClaw工作原理解析，附应用生态及相关资源\" OpenClaw 工作原理 Hesam@Hesamation 原文来自 Hesam (@Hesamation) 发布于 X 的文章，链接见文末。 O"
+description: "OpenClaw 工作原理解析，重点梳理从用户消息进入系统到最终反馈输出的完整链路、上下文管理与智能体循环机制。"
 tags: ["工程现场", "信息备忘"]
 category: "工程现场"
 draft: false
