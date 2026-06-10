@@ -2,7 +2,7 @@
 title: "面经库｜09 腾讯AI应用开发一面 逸"
 published: 2026-06-10
 description: "# 腾讯 AI 应用开发 一面 **来源**：小红书笔记（作者：逸，2026-04-11） **链接**：http://xhslink.com/o/2yiaDG9CXww **数据**：3357 点赞 / 6245 收藏 / 120 评论 "
-tags: ["面经", "面经库", "agent面经"]
+tags: ["面经", "面经库"]
 category: "面经整理"
 draft: false
 lang: zh-CN

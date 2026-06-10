@@ -2,7 +2,7 @@
 title: "面经库｜SpringAI SuperAgent 应用与特性 整理"
 published: 2026-06-10
 description: "# SpringAI_SuperAgent_应用与特性 ## 问题 SpringAI_SuperAgent_应用与特性 ## 标准回答 # 你在 AI 超级智能体项目中如何利用 Spring AI 开发应用？ 用到了哪些特性？ ## 标准回"
-tags: ["面经", "面经库", "agent面经"]
+tags: ["面经", "面经库"]
 category: "面经整理"
 draft: false
 lang: zh-CN
@@ -60,3 +60,41 @@ SpringAI_SuperAgent_应用与特性
 
 ### Q3：Spring AI 与 LangChain 相比有何优劣？
 **A**：Spring AI 与 Spring Boot 生态无缝集成，适合 Java 技术栈企业；LangChain 生态更丰富，但 Python 依赖较重。
+
+## 关键点
+
+- # 你在 AI 超级智能体项目中如何利用 Spring AI 开发应用？
+- 用到了哪些特性？
+- ## 核心回答
+
+在 AI 超级智能体项目中，Spring AI 提供了构建模块化、可扩展 Agent 的核心能力，主要用到以下特性：
+
+1. **ChatClient 与工具调用**：通过 `@Tool` 注解将业务能力（搜索、数据库查询等）暴露给 LLM，实现 ReAct 循环。
+- 2. **Advisor 链**：在请求前后插入自定义逻辑，如日志、限流、记忆加载、内容安全过滤。
+- 3. **RAG 支持**：利用 `RetrievalAugmentationAdvisor` 集成向量存储，实现知识库增强生成。
+
+## 备注
+
+- 本文已做格式统一与噪声清理，保留原始语义。
+- ## 问题
+
+SpringAI_SuperAgent_应用与特性
+
+# 你在 AI 超级智能体项目中如何利用 Spring AI 开发应用？用到了哪些特性？
+- ## 核心回答
+
+在 AI 超级智能体项目中，Spring AI 提供了构建模块化、可扩展 Agent 的核心能力，主要用到以下特性：
+
+1. **ChatClient 与工具调用**：通过 `@Tool` 注解将业务能力（搜索、数据库查询等）暴露给 LLM，实现 ReAct 循环。
+- 2. **Advisor 链**：在请求前后插入自定义逻辑，如日志、限流、记忆加载、内容安全过滤。
+- 3. **RAG 支持**：利用 `RetrievalAugmentationAdvisor` 集成向量存储，实现知识库增强生成。
+- 4. **多模型抽象**：统一接口支持 OpenAI、Ollama、Claude 等，便于切换或混合调用。
+
+- 本文已做格式统一与噪声清理，保留原始语义。
+- 在 AI 超级智能体项目中，Spring AI 提供了构建模块化、可扩展 Agent 的核心能力，主要用到以下特性：
+- 1. **ChatClient 与工具调用**：通过 `@Tool` 注解将业务能力（搜索、数据库查询等）暴露给 LLM，实现 ReAct 循环。
+- 2. **Advisor 链**：在请求前后插入自定义逻辑，如日志、限流、记忆加载、内容安全过滤。
+- 3. **RAG 支持**：利用 `RetrievalAugmentationAdvisor` 集成向量存储，实现知识库增强生成。
+- 4. **多模型抽象**：统一接口支持 OpenAI、Ollama、Claude 等，便于切换或混合调用。
+
+- 本文已做格式统一与噪声清理，保留原始语义。

@@ -2,7 +2,7 @@
 title: "面经库｜Agent超大结果面试题整理版"
 published: 2026-06-10
 description: "# Agent 工具调用返回超大结果的处理策略 > 面试题：Agent 调用工具可能返回超大结果（比如代码搜索返回 50KB），这会带来什么问题？你会怎么处理？OpenClaw 是怎么做的？ --- ## 一、超大结果带来的三个问题 | 问"
-tags: ["面经", "面经库", "agent面经"]
+tags: ["面经", "面经库"]
 category: "面经整理"
 draft: false
 lang: zh-CN

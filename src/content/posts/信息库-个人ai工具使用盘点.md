@@ -1,9 +1,9 @@
 ---
-title: "经验总结｜个人AI工具使用盘点"
+title: "信息库｜个人AI工具使用盘点"
 published: 2026-06-10
 description: "linuxdo 最新AI资讯获取，在这里看其他人分享的开源项目，AI使用经验，踩坑记录等 ominibot手机端智能体，处理word,excel，获取各个网站信息保存为文档整理个人资料库 obsidian md阅读器，整理阅读信息 code"
-tags: ["经验库"]
-category: "经验总结"
+tags: ["信息库"]
+category: "信息总结"
 draft: false
 lang: zh-CN
 pinned: false

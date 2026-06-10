@@ -2,7 +2,7 @@
 title: "面经库｜OpenClaw Agent Runner 工作阶段整理"
 published: 2026-06-10
 description: "# OpenClaw 的 Agent Runner 是如何工作的？一次 Agent 运行经历了哪些阶段？ ## 核心回答 Agent Runner 是 OpenClaw 的核心调度器（指挥中心），负责协调 LLM 调用、工具执行、错误处理等"
-tags: ["面经", "面经库", "agent面经"]
+tags: ["面经", "面经库"]
 category: "面经整理"
 draft: false
 lang: zh-CN

@@ -2,7 +2,7 @@
 title: "面经库｜校招生写Agent 项目最怕这5个追问"
 published: 2026-06-10
 description: "# 校招生写Agent项目，最怕这5个追问 > 来源：小红书 @黄同学h > 原文链接：http://xhslink.com/o/5TeS1z9FWsQ > 发布时间：2026-04-11 > 标签：Agent、Agent开发、后端开发、互"
-tags: ["面经", "面经库", "agent面经"]
+tags: ["面经", "面经库"]
 category: "面经整理"
 draft: false
 lang: zh-CN

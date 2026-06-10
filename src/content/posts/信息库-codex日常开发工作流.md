@@ -1,9 +1,9 @@
 ---
-title: "经验总结｜Codex日常开发工作流"
+title: "信息库｜Codex日常开发工作流"
 published: 2026-06-10
 description: "# Codex 日常开发工作流 ## 背景 来源：实习经验分享 时间：2026-06-05 ## 工作流概览 每天到办公室的标准化流程： ### 1. 环境准备 - 打开电脑 - 启动 **4 个 Codex 实例**： - 1 个 VSC"
-tags: ["经验库"]
-category: "经验总结"
+tags: ["信息库"]
+category: "信息总结"
 draft: false
 lang: zh-CN
 pinned: false

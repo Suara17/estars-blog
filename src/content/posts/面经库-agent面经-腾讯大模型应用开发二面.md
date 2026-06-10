@@ -2,7 +2,7 @@
 title: "面经库｜腾讯大模型应用开发二面"
 published: 2026-06-10
 description: "# 腾讯大模型应用开发 二面 > 来源：小红书 @逸 > 原文链接：http://xhslink.com/o/5vDCA2JigSO > 发布时间：2026-04-12 > 标签：面试、面经、AI、Agent、实习 --- ## Q1：如果"
-tags: ["面经", "面经库", "agent面经"]
+tags: ["面经", "面经库"]
 category: "面经整理"
 draft: false
 lang: zh-CN

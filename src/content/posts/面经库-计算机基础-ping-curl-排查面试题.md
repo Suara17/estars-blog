@@ -2,7 +2,7 @@
 title: "面经库｜ping curl 排查面试题"
 published: 2026-06-10
 description: "# Ping / Curl 服务不通 —— 面试高频问题及答案 > 🎯 适用岗位：运维工程师、SRE、后端开发、网络工程师 > 📅 整理日期：2026-06-07 --- ## 一、核心概念：ping 和 curl 到底有什么区别？ | 维"
-tags: ["面经", "面经库", "计算机基础"]
+tags: ["面经", "面经库"]
 category: "面经整理"
 draft: false
 lang: zh-CN

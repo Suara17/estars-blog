@@ -2,7 +2,7 @@
 title: "面经库｜Agent暑期实习面经"
 published: 2026-06-10
 description: "# Agent暑期实习面经 > 来源：小红书 @菌菌 > 原文链接：http://xhslink.com/o/1bp55UaMqkL > 发布时间：2026-04-27 > 标签：暑期实习、暑期实习面经、面经 > 收藏 1095 · 点赞 "
-tags: ["面经", "面经库", "agent面经"]
+tags: ["面经", "面经库"]
 category: "面经整理"
 draft: false
 lang: zh-CN

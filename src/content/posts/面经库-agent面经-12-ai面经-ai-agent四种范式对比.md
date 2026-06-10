@@ -2,7 +2,7 @@
 title: "面经库｜12 AI面经 AI Agent四种范式对比"
 published: 2026-06-10
 description: "大家好 欢迎来到本期技术面试深度解析 聊一道面试题对比AI agent四种饭时react, plan, and execute multi agent以及to use agent各自是用什么场景 如何做技术选行 这道题大多数人的回答会查在列"
-tags: ["面经", "面经库", "agent面经"]
+tags: ["面经", "面经库"]
 category: "面经整理"
 draft: false
 lang: zh-CN

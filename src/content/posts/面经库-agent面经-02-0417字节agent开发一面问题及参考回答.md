@@ -2,7 +2,7 @@
 title: "面经库｜02 0417字节Agent开发一面问题及参考回答"
 published: 2026-06-10
 description: "# 0417字节Agent开发一面问题及参考回答 ## 3. 有没有观察过同一个模型在不同 context 长度下的表现差异？ **参考回答**： #精华 观察到随着 context 增长，模型对早期信息的记忆和关联能力显著下降，容易出现重"
-tags: ["面经", "面经库", "agent面经"]
+tags: ["面经", "面经库"]
 category: "面经整理"
 draft: false
 lang: zh-CN

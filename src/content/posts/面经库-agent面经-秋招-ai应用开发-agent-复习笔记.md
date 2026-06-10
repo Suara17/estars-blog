@@ -2,7 +2,7 @@
 title: "面经库｜秋招 AI应用开发 Agent 复习笔记"
 published: 2026-06-10
 description: "# 🎯 AI 应用开发 / Agent 方向 · 秋招复习笔记 > 📅 整理时间：2026-06-02 > 📚 来源：基于 workspace 内 18 份面经资料整合 > 🎯 适用：AI 应用开发 / Agent 开发 / 大模型应用 校"
-tags: ["面经", "面经库", "agent面经"]
+tags: ["面经", "面经库"]
 category: "面经整理"
 draft: false
 lang: zh-CN
