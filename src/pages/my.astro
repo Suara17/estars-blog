@@ -1,0 +1,209 @@
+---
+import MainGridLayout from "@/layouts/MainGridLayout.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<MainGridLayout title="关于我" description="Estars - 新一代电子信息技术硕士，AI爱好者">
+
+  <main class="my-page">
+    <div class="hero-section onload-animation">
+      <div class="avatar-wrapper">
+        <img
+          src="/uploads/avatar/头像图.jpg"
+          alt="Estars"
+          class="avatar"
+          width="120"
+          height="120"
+        />
+      </div>
+      <h1 class="name">Estars</h1>
+      <p class="tagline">这条路要走完，才能看到世界的终点，是海纳百川，还是星火燎原。</p>
+    </div>
+
+    <div class="content-section onload-animation">
+      <section class="bio-card">
+        <div class="card-header">
+          <Icon name="fa7-solid:user" class="icon" />
+          <h2>关于我</h2>
+        </div>
+        <div class="card-body">
+          <p><strong>新一代电子信息技术</strong> 硕士</p>
+          <p><strong>AI 爱好者</strong>，热衷于探索大模型、智能体与自动化工具的前沿应用</p>
+          <p>喜欢捣鼓有趣实用的<strong>开源软件</strong>，把想法变成能用的东西</p>
+        </div>
+      </section>
+
+      <section class="skills-card">
+        <div class="card-header">
+          <Icon name="fa7-solid:star" class="icon" />
+          <h2>兴趣方向</h2>
+        </div>
+        <div class="card-body tags">
+          <span class="tag">🤖 大模型 & AI Agent</span>
+          <span class="tag">⚙️ 自动化工具链</span>
+          <span class="tag">📱 移动端开发</span>
+          <span class="tag">🌐 开源软件</span>
+          <span class="tag">📊 数据分析</span>
+          <span class="tag">🛠️ DevOps</span>
+        </div>
+      </section>
+
+      <section class="links-card">
+        <div class="card-header">
+          <Icon name="fa7-solid:link" class="icon" />
+          <h2>找到我</h2>
+        </div>
+        <div class="card-body">
+          <div class="social-links">
+            <a href="https://github.com/Suara17" target="_blank" rel="noopener noreferrer" class="social-link">
+              <Icon name="fa7-brands:github" />
+              <span>GitHub</span>
+            </a>
+            <a href="/rss/" class="social-link">
+              <Icon name="fa7-solid:rss" />
+              <span>RSS</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</MainGridLayout>
+
+<style is:global>
+  .my-page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  .hero-section {
+    text-align: center;
+    padding: 3rem 0 2rem;
+  }
+
+  .avatar-wrapper {
+    margin-bottom: 1.25rem;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border: 3px solid var(--primary);
+  }
+
+  .name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+    color: var(--secondary);
+    line-height: 1.6;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .bio-card,
+  .skills-card,
+  .links-card {
+    background: var(--card-background);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .bio-card:hover,
+  .skills-card:hover,
+  .links-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--card-border);
+    background: var(--card-header-background);
+  }
+
+  .card-header h2 {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+
+  .card-header .icon {
+    font-size: 1.2rem;
+    color: var(--primary);
+  }
+
+  .card-body {
+    padding: 1.25rem;
+  }
+
+  .card-body p {
+    margin: 0.5rem 0;
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 0.35rem 0.85rem;
+    font-size: 0.875rem;
+    border-radius: 20px;
+    background: color-mix(in srgb, var(--primary) 12%, transparent);
+    color: var(--primary);
+    border: 1px solid color-mix(in srgb, var(--primary) 20%, transparent);
+    transition: all 0.2s;
+  }
+
+  .tag:hover {
+    background: color-mix(in srgb, var(--primary) 20%, transparent);
+    transform: scale(1.05);
+  }
+
+  .social-links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-color);
+    background: var(--card-background);
+    border: 1px solid var(--card-border);
+    transition: all 0.2s;
+    font-size: 0.95rem;
+  }
+
+  .social-link:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+    background: color-mix(in srgb, var(--primary) 8%, transparent);
+  }
+</style>
