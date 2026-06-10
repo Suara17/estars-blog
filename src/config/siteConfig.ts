@@ -24,7 +24,7 @@ export const siteConfig: SiteConfig = {
 	navbar: {
 		logo: {
 			type: "image",
-			value: "/uploads/brand/站点LOGO.jpg",
+			value: "/uploads/avatar/头像图.jpg",
 			alt: "Estars的博客",
 		},
 		title: "Estars的博客",
