@@ -1,5 +1,5 @@
 ---
-title: "求职作战室｜Embedding Model Selection 整理"
+title: "Embedding Model Selection 整理"
 published: 2026-06-10
 description: "# Embedding_Model_Selection ## 问题 Embedding_Model_Selection ## 标准回答 # 在 RAG 中如何选择 Embedding Model（嵌入模型）—— 考虑因素与选型指南 选择 E"
 tags: ["求职作战室", "面经"]

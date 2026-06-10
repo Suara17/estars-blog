@@ -1,5 +1,5 @@
 ---
-title: "求职作战室｜OpenClaw 把 Context 管理抽象成了可插拔的 Context Engine，为什么要做这层抽象？这个设计能支持哪些不同的策略？ 整理"
+title: "OpenClaw 把 Context 管理抽象成了可插拔的 Context Engine，为什么要做这层抽象？这个设计能支持哪些不同的策略？ 整理"
 published: 2026-06-10
 description: "# OpenClaw 把 Context 管理抽象成了可插拔的 Context Engine，为什么要做这层抽象？这个设计能支持哪些不同的策略？ ## 问题 OpenClaw 把 Context 管理抽象成了可插拔的 Context Eng"
 tags: ["求职作战室", "面经"]

@@ -1,5 +1,5 @@
 ---
-title: "求职作战室｜现场实操：给定一个包含数据Schema的API文档，请使用AI工具在15分钟内生成符合RESTful规范的CRUD接口代码，并解释关键实现逻辑 整理"
+title: "现场实操：给定一个包含数据Schema的API文档，请使用AI工具在15分钟内生成符合RESTful规范的CRUD接口代码，并解释关键实现逻辑 整理"
 published: 2026-06-10
 description: "# 现场实操：给定一个包含数据Schema的API文档，请使用AI工具在15分钟内生成符合RESTful规范的CRUD接口代码，并解释关键实现逻辑 ## 问题 现场实操：给定一个包含数据Schema的API文档，请使用AI工具？ 15分钟内"
 tags: ["求职作战室", "面经"]

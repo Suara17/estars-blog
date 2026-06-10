@@ -1,5 +1,5 @@
 ---
-title: "求职作战室｜Spring AI Modular RAG Architecture 整理"
+title: "Spring AI Modular RAG Architecture 整理"
 published: 2026-06-10
 description: "# Spring_AI_Modular_RAG_Architecture ## 问题 Spring_AI_Modular_RAG_Architecture ## 标准回答 # Spring AI 模块化 RAG 架构：预检索、检索、后检索三"
 tags: ["求职作战室", "面经"]

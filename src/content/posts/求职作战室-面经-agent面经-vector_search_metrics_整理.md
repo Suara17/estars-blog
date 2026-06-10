@@ -1,5 +1,5 @@
 ---
-title: "求职作战室｜Vector Search Metrics 整理"
+title: "Vector Search Metrics 整理"
 published: 2026-06-10
 description: "# Vector_Search_Metrics ## 问题 Vector_Search_Metrics ## 标准回答 # 向量搜索方法：余弦相似度、欧几里得距离、曼哈顿距离 向量搜索的核心是衡量两个向量的相似程度，三种常见方法各有侧重： "
 tags: ["求职作战室", "面经"]

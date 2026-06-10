@@ -1,5 +1,5 @@
 ---
-title: "航海图｜DS2API 部署使用指南"
+title: "DS2API 部署使用指南"
 published: 2026-06-10
 description: "# ds2api 部署使用指南 > 将 DeepSeek Web 对话能力转换为 OpenAI、Claude、Gemini 兼容 API 的中间件。 > 项目地址：https://github.com/CJackHwang/ds2api （"
 tags: ["航海图", "操作指南"]

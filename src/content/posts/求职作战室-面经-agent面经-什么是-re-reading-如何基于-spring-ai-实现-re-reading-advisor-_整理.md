@@ -1,5 +1,5 @@
 ---
-title: "求职作战室｜什么是 Re Reading？如何基于 Spring AI 实现 Re Reading Advisor？ 整理"
+title: "什么是 Re Reading？如何基于 Spring AI 实现 Re Reading Advisor？ 整理"
 published: 2026-06-10
 description: "# 什么是 Re-Reading？如何基于 Spring AI 实现 Re-Reading Advisor？ ## 问题 什么是 Re-Reading？如何基于 Spring AI 实现 Re-Reading Advisor？ ## 标准回"
 tags: ["求职作战室", "面经"]

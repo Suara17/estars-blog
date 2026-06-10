@@ -1,5 +1,5 @@
 ---
-title: "求职作战室｜Re Reading SpringAI 实现 整理"
+title: "Re Reading SpringAI 实现 整理"
 published: 2026-06-10
 description: "# Re_Reading_SpringAI_实现 ## 问题 Re_Reading_SpringAI_实现 ## 标准回答 # 什么是 Re-Reading？ 如何基于 Spring AI 实现 Re-Reading Advisor？ Re"
 tags: ["求职作战室", "面经"]

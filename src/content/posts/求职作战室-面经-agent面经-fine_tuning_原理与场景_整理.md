@@ -1,5 +1,5 @@
 ---
-title: "求职作战室｜Fine Tuning 原理与场景 整理"
+title: "Fine Tuning 原理与场景 整理"
 published: 2026-06-10
 description: "# Fine_Tuning_原理与场景 ## 问题 Fine_Tuning_原理与场景 ## 标准回答 # 大模型微调 (Fine-tuning) 原理与适用场景 大模型微调是在预训练模型的基础上，用特定领域的数据集继续训练，让模型的权重朝"
 tags: ["求职作战室", "面经"]

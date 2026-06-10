@@ -1,5 +1,5 @@
 ---
-title: "求职作战室｜校招生写Agent项目最怕这5个追问"
+title: "校招生写Agent项目最怕这5个追问"
 published: 2026-06-10
 description: "# 校招生写Agent项目，最怕这5个追问 > 来源：小红书 @黄同学h > 原文链接：http://xhslink.com/o/5TeS1z9FWsQ > 发布时间：2026-04-11 > 标签：Agent、Agent开发、后端开发、互"
 tags: ["求职作战室", "面经"]

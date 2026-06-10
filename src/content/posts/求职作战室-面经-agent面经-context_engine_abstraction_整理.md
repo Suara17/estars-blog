@@ -1,5 +1,5 @@
 ---
-title: "求职作战室｜Context Engine Abstraction 整理"
+title: "Context Engine Abstraction 整理"
 published: 2026-06-10
 description: "# Context_Engine_Abstraction ## 问题 Context_Engine_Abstraction ## 标准回答 # OpenClaw 的可插拔 Context Engine：为什么需要抽象？ 支持哪些策略？ **"
 tags: ["求职作战室", "面经"]
