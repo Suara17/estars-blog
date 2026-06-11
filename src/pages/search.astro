@@ -16,27 +16,6 @@ const description = "";
 </MainGridLayout>
 
 {import.meta.env.PROD && (
-<script is:inline define:vars={{ scriptUrl: url('/pagefind/pagefind.js') }}>
-    if (!window.pagefind) {
-        async function loadPagefind() {
-            const url = scriptUrl.replace(/\/$/, "")
-            try {
-                const response = await fetch(url, { method: 'HEAD' });
-                if (response.status !== 200) {
-                    return;
-                }
-                const pagefind = await import(scriptUrl);
-                await pagefind.options({
-                    "excerptLength": 20
-                });
-                window.pagefind = pagefind;
-                document.dispatchEvent(new Event('pagefindready'));
-            } catch (error) {
-                console.warn("Pagefind script not found or failed to load.");
-                document.dispatchEvent(new Event('pagefindloaderror'));
-            }
-        }
-        loadPagefind();
-    }
-</script>
+    // 使用独立的 pagefind-init.js（public/ 目录，不经过 Vite 打包）
+    <script type="module" is:inline src="/pagefind-init.js"></script>
 )}

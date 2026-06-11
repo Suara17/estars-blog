@@ -299,36 +299,8 @@ if (document.readyState === 'loading') {
 
 {
     import.meta.env.PROD && (
-        <script data-swup-ignore-script>
-            (function() {
-                // 硬编码 URL，避免 define:vars + is:inline 的兼容问题
-                const PAGE_URL = '/pagefind/pagefind.js';
-    
-                async function initPagefind() {
-                    try {
-                        const resp = await fetch(PAGE_URL, { method: 'HEAD' });
-                        if (!resp.ok) {
-                            throw new Error('Pagefind script not found: ' + resp.status);
-                        }
-                        const mod = await import(PAGE_URL);
-                        await mod.options({ excerptLength: 20 });
-                        window.pagefind = mod;
-                        document.dispatchEvent(new CustomEvent('pagefindready'));
-                        console.log('[Pagefind] loaded successfully');
-                    } catch (err) {
-                        console.error('[Pagefind] load failed:', err);
-                        // 不在 catch 中设置 fake window.pagefind
-                        // Search.svelte 会通过超时兜底自行处理
-                        document.dispatchEvent(new CustomEvent('pagefindloaderror'));
-                    }
-                }
-    
-                if (document.readyState === 'loading') {
-                    document.addEventListener('DOMContentLoaded', initPagefind);
-                } else {
-                    initPagefind();
-                }
-            })();
-        </script>
+        // 使用 type="module" + is:inline + 独立入口脚本（public/），
+        // 避免 Vite 打包器处理 dynamic import()
+        <script type="module" is:inline data-swup-ignore-script src="/pagefind-init.js"></script>
     )
 }

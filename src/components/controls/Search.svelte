@@ -129,23 +129,13 @@ onMount(() => {
 				once: true,
 			});
 
-			// 超时兜底：如果 5 秒后仍未初始化，直接尝试导入 pagefind
-			fallbackTimer = setTimeout(async () => {
+			// 超时兜底：如果 8 秒后仍未初始化，强制标记为已初始化
+			// （pagefind 由 /pagefind-init.js 独立模块加载，这里的超时只是最后的安全网）
+			fallbackTimer = setTimeout(() => {
 				if (initialized || !mounted) return;
-				console.warn("[Search] Pagefind event timeout, trying direct import...");
-				try {
-					const resp = await fetch("/pagefind/pagefind.js", { method: "HEAD" });
-					if (resp.ok) {
-						const mod = await import("/pagefind/pagefind.js");
-						await mod.options({ excerptLength: 20 });
-						window.pagefind = mod;
-					}
-				} catch (e) {
-					console.warn("[Search] Direct pagefind import failed:", e);
-				}
-				// 无论导入成功与否，都标记为已初始化（成功则 pagefind 可用，失败则搜索返回空）
+				console.warn("[Search] Pagefind init timeout, forcing init");
 				initializePagefind();
-			}, 5000);
+			}, 8000);
 		}
 	}
 

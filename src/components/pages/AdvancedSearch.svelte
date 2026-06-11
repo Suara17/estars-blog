@@ -72,7 +72,10 @@ const search = async () => {
 
 // --- Initialization onMount ---
 onMount(() => {
+	let mounted = true;
+
 	const initialize = async () => {
+		if (!mounted) return;
 		initialized = true;
 
 		// 从 URL 获取初始关键词
@@ -98,8 +101,19 @@ onMount(() => {
 			document.addEventListener("pagefindready", initialize, {
 				once: true,
 			});
+
+			// 超时兜底：8秒后强制初始化
+			setTimeout(() => {
+				if (!mounted || initialized) return;
+				console.warn("[AdvancedSearch] Pagefind init timeout, forcing init");
+				initialize();
+			}, 8000);
 		}
 	}
+
+	return () => {
+		mounted = false;
+	};
 });
 
 let debounceTimer: NodeJS.Timeout;
