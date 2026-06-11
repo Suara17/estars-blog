@@ -102,8 +102,13 @@ const search = async (keyword: string, isDesktop: boolean): Promise<void> => {
 
 // --- Initialization onMount ---
 onMount(() => {
+	let mounted = true;
+	let fallbackTimer: NodeJS.Timeout;
+
 	const initializePagefind = () => {
+		if (!mounted) return;
 		initialized = true;
+		clearTimeout(fallbackTimer);
 		if (keywordDesktop) search(keywordDesktop, true);
 		if (keywordMobile) search(keywordMobile, false);
 	};
@@ -112,19 +117,42 @@ onMount(() => {
 		console.log("Pagefind mock enabled in development mode.");
 		initializePagefind();
 	} else {
+		// 如果 window.pagefind 已经存在，直接初始化
 		if (window.pagefind) {
-			// If script already loaded
 			initializePagefind();
 		} else {
-			// Listen for the event
+			// 监听 Navbar.astro 发来的事件
 			document.addEventListener("pagefindready", initializePagefind, {
 				once: true,
 			});
 			document.addEventListener("pagefindloaderror", initializePagefind, {
 				once: true,
 			});
+
+			// 超时兜底：如果 5 秒后仍未初始化，直接尝试导入 pagefind
+			fallbackTimer = setTimeout(async () => {
+				if (initialized || !mounted) return;
+				console.warn("[Search] Pagefind event timeout, trying direct import...");
+				try {
+					const resp = await fetch("/pagefind/pagefind.js", { method: "HEAD" });
+					if (resp.ok) {
+						const mod = await import("/pagefind/pagefind.js");
+						await mod.options({ excerptLength: 20 });
+						window.pagefind = mod;
+					}
+				} catch (e) {
+					console.warn("[Search] Direct pagefind import failed:", e);
+				}
+				// 无论导入成功与否，都标记为已初始化（成功则 pagefind 可用，失败则搜索返回空）
+				initializePagefind();
+			}, 5000);
 		}
 	}
+
+	return () => {
+		mounted = false;
+		clearTimeout(fallbackTimer);
+	};
 });
 
 // --- Reactive Statements ---

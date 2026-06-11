@@ -299,37 +299,36 @@ if (document.readyState === 'loading') {
 
 {
     import.meta.env.PROD && (
-        <script is:inline data-swup-ignore-script define:vars={{ scriptUrl: url('/pagefind/pagefind.js') }}>
-            {/* 你的 loadPagefind 函数的完整内容放在这里 */}
-            async function loadPagefind() {
-                try {
-                    const response = await fetch(scriptUrl, { method: 'HEAD' });
-                    if (!response.ok) {
-                        throw new Error(`Pagefind script not found: ${response.status}`);
+        <script data-swup-ignore-script>
+            (function() {
+                // 硬编码 URL，避免 define:vars + is:inline 的兼容问题
+                const PAGE_URL = '/pagefind/pagefind.js';
+    
+                async function initPagefind() {
+                    try {
+                        const resp = await fetch(PAGE_URL, { method: 'HEAD' });
+                        if (!resp.ok) {
+                            throw new Error('Pagefind script not found: ' + resp.status);
+                        }
+                        const mod = await import(PAGE_URL);
+                        await mod.options({ excerptLength: 20 });
+                        window.pagefind = mod;
+                        document.dispatchEvent(new CustomEvent('pagefindready'));
+                        console.log('[Pagefind] loaded successfully');
+                    } catch (err) {
+                        console.error('[Pagefind] load failed:', err);
+                        // 不在 catch 中设置 fake window.pagefind
+                        // Search.svelte 会通过超时兜底自行处理
+                        document.dispatchEvent(new CustomEvent('pagefindloaderror'));
                     }
-                    const pagefind = await import(scriptUrl);
-                    await pagefind.options({
-                        excerptLength: 20
-                    });
-                    window.pagefind = pagefind;
-                    document.dispatchEvent(new CustomEvent('pagefindready'));
-                    console.log('Pagefind loaded and initialized successfully, event dispatched.');
-                } catch (error) {
-                    console.error('Failed to load Pagefind:', error);
-                    window.pagefind = {
-                        search: () => Promise.resolve({ results: [] }),
-                        options: () => Promise.resolve(),
-                    };
-                    document.dispatchEvent(new CustomEvent('pagefindloaderror'));
-                    console.log('Pagefind load error, event dispatched.');
                 }
-            }
-
-            if (document.readyState === 'loading') {
-                document.addEventListener('DOMContentLoaded', loadPagefind);
-            } else {
-                loadPagefind();
-            }
+    
+                if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', initPagefind);
+                } else {
+                    initPagefind();
+                }
+            })();
         </script>
     )
 }
