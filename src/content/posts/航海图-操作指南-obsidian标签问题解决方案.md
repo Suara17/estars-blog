@@ -1,15 +1,12 @@
 ---
-title: "Obsidian标签问题解决方案"
-published: 2026-06-10
-description: "# Obsidian 标签问题解决方案 ## 问题描述 在使用 Obsidian 查看小万工作间目录下的文档时，发现两类问题： 1. 十六进制颜色代码（如 `#3B82F6`、`#2563EB`）被 Obsidian 误识别为标签 2. 小"
-tags: ["航海图", "操作指南"]
+title: "Obsidian 标签问题解决方案"
+published: 2026-06-12
+description: "在使用 Obsidian 查看小万工作间目录下的文档时，发现两类问题： 1. 十六进制颜色代码（如 #3B82F6、#2563EB）被 Obsidian 误识别为标签 2. 小红书笔记自带的标签（如 #互联网大厂 #agent）被 Obsidian 误识别为标签 - Obsidian 标签统计中出现大量十六进制颜色代码标签 - Obsidian 标签统计中出现大量小红书笔记标签 - 标签数量统计异..."
 category: "航海图"
+tags: ["\u822a\u6d77\u56fe", "\u64cd\u4f5c\u6307\u5357"]
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
-
 # Obsidian 标签问题解决方案
 
 ## 问题描述

@@ -1,15 +1,12 @@
 ---
-title: "AI面试模拟练习清单"
-published: 2026-06-10
-description: "# 🎯 AI Agent 开发 · 面试模拟练习清单 > 📅 生成时间：2026-06-03 > 📚 来源：基于 19 份面经 + 秋招复习笔记 > 🎯 适用：AI 应用开发 / Agent 开发 / 大模型应用 校招岗位 --- ## 一"
-tags: ["求职作战室", "面经"]
+title: "🎯 AI Agent 开发 · 面试模拟练习清单"
+published: 2026-06-12
+description: "> 📅 生成时间：2026-06-03 > 📚 来源：基于 19 份面经 + 秋招复习笔记 > 🎯 适用：AI 应用开发 / Agent 开发 / 大模型应用 校招岗位 --- - 扎实的 Agent 项目经验，能说清动机、挑战、迭代过程 - 了解主流 Agent 框架（LangChain、CrewAI、AutoGPT 等） - 熟悉 LLM 上下文工程（Context Window、压缩策略） ..."
 category: "求职作战室"
+tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
-
 # 🎯 AI Agent 开发 · 面试模拟练习清单
 
 > 📅 生成时间：2026-06-03

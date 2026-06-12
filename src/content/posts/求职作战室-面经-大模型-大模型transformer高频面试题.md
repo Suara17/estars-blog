@@ -1,15 +1,12 @@
 ---
-title: "大模型Transformer高频面试题"
-published: 2026-06-10
-description: "# 大模型 & Transformer 高频面试题及答案 > 🎯 适用岗位：算法工程师、AI 应用开发、大模型研发 > 📅 整理日期：2026-06-07 > 💬 答案按面试口语化写，直接照着说就行 --- ## 一、Transformer"
-tags: ["求职作战室", "面经"]
+title: "大模型 & Transformer 高频面试题及答案"
+published: 2026-06-12
+description: "> 🎯 适用岗位：算法工程师、AI 应用开发、大模型研发 > 📅 整理日期：2026-06-07 > 💬 答案按面试口语化写，直接照着说就行 --- Transformer 分两半——Encoder 和 Decoder，每半都是 N 个一样的层叠在一起。 单层 Encoder 就是：多头注意力 → 残差+归一化 → 前馈网络 → 残差+归一化。 Decoder 多了一步：先是带 mask 的自注意..."
 category: "求职作战室"
+tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
-
 # 大模型 & Transformer 高频面试题及答案
 
 > 🎯 适用岗位：算法工程师、AI 应用开发、大模型研发

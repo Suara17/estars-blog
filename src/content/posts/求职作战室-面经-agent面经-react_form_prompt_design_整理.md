@@ -1,15 +1,12 @@
 ---
-title: "React Form Prompt Design 整理"
-published: 2026-06-10
-description: "# React_Form_Prompt_Design ## 问题 React_Form_Prompt_Design ## 标准回答 # 设计包含上下文约束的 React 表单组件 Prompt 要让大模型生成能直接使用的 React 表单组"
-tags: ["求职作战室", "面经"]
+title: "React_Form_Prompt_Design"
+published: 2026-06-12
+description: "React_Form_Prompt_Design 要让大模型生成能直接使用的 React 表单组件，Prompt 必须覆盖四个维度：字段定义、验证规？ 、交互行为、代码规范。以下是一个实战级 Prompt 模板： ```text 用 React 18 + TypeScript + React Hook Form 写一个用户注册表单组件。 字段清单： - 用户名：必填，2-10 个字符，只能包含字母..."
 category: "求职作战室"
+tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
-
 # React_Form_Prompt_Design
 ## 问题
 React_Form_Prompt_Design

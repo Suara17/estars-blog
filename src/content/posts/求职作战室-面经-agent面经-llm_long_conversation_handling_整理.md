@@ -1,15 +1,12 @@
 ---
-title: "LLM Long Conversation Handling 整理"
-published: 2026-06-10
-description: "# LLM_Long_Conversation_Handling ## 问题 LLM_Long_Conversation_Handling ## 标准回答 # LLM 的 Context Window 有上限，长对话时如何保证 Agent "
-tags: ["求职作战室", "面经"]
+title: "LLM_Long_Conversation_Handling"
+published: 2026-06-12
+description: "LLM_Long_Conversation_Handling OpenClaw 是怎么做的？ 长对话的核心风险是 Context Window 溢出，导致请求报错或模型"失忆"。 OpenClaw 采用分层防御策略，从轻到重依次处理： Context Pruning（上下文修剪） 每次请求前，清理不重要的早期 Tool Result。采用两级阈值： - softTrimRatio（默认 0.3）：..."
 category: "求职作战室"
+tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
-
 # LLM_Long_Conversation_Handling
 ## 问题
 LLM_Long_Conversation_Handling

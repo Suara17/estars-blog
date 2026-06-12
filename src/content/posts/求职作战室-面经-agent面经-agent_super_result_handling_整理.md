@@ -1,15 +1,12 @@
 ---
-title: "Agent Super Result Handling 整理"
-published: 2026-06-10
-description: "# Agent_Super_Result_Handling ## 问题 Agent_Super_Result_Handling ## 标准回答 # Agent 调用工具返回超大结果的处理与 OpenClaw 实践 Agent 调用工具返回超"
-tags: ["求职作战室", "面经"]
+title: "Agent_Super_Result_Handling"
+published: 2026-06-12
+description: "Agent_Super_Result_Handling Agent 调用工具返回超大结果（如代码搜索返回 50KB 文本）会带来三个？ 接问题： - Token 爆炸：50KB 文本按 1 token≈4 字符估算，单条结果吃掉 12000+ token。 - 挤占上下文空间：128K 窗口下，一条结果占近 10%，挤压历史、System Prompt 和用户消息。 - 延迟飙升：处理大结果增加计..."
 category: "求职作战室"
+tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
-
 # Agent_Super_Result_Handling
 ## 问题
 Agent_Super_Result_Handling

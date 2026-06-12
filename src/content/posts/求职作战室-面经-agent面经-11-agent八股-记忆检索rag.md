@@ -1,15 +1,12 @@
 ---
-title: "11 Agent八股 记忆检索RAG"
-published: 2026-06-10
-description: "# Agent八股分享：一天速通记忆/检索（RAG） **来源**：小红书笔记 **链接**：http://xhslink.com/o/8tkHC8Q3yVK **标签**：互联网大厂、agent、java、后端开发、实习、暑期实习 ---"
-tags: ["求职作战室", "面经"]
+title: "Agent八股分享：一天速通记忆/检索（RAG）"
+published: 2026-06-12
+description: "来源：小红书笔记 链接：http://xhslink.com/o/8tkHC8Q3yVK 标签：互联网大厂、agent、java、后端开发、实习、暑期实习 --- 1. 什么是 RAG？为什么它比直接让模型回答更适合企业知识问答？ 2. RAG 和微调有什么区别？什么时候用哪个？ 3. RAG 和长上下文模型谁更好？ 4. 为什么说 RAG 不是一个"向量库项目"？ 5. 一个 RAG 系统为什么..."
 category: "求职作战室"
+tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
-
 # Agent八股分享：一天速通记忆/检索（RAG）
 
 **来源**：小红书笔记  

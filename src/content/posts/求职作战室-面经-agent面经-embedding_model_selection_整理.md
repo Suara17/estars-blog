@@ -1,15 +1,12 @@
 ---
-title: "Embedding Model Selection 整理"
-published: 2026-06-10
-description: "# Embedding_Model_Selection ## 问题 Embedding_Model_Selection ## 标准回答 # 在 RAG 中如何选择 Embedding Model（嵌入模型）—— 考虑因素与选型指南 选择 E"
-tags: ["求职作战室", "面经"]
+title: "Embedding_Model_Selection"
+published: 2026-06-12
+description: "Embedding_Model_Selection 选择 Embedding Model 核心看 7 个因素，可概？ 为"准、快、专、广、大、活、省"： 准（语义准确性）：模型能否精准捕捉文本语义，长句理解、上下文关联、同义词区分能力直接影响向量相似度计算的可靠性。 快（模型效率）：推理速度能否满足业务实时性要求，QPS 高的场景不能用太大的模型，显存占用也得适配硬件资源。 专（领域适配）：是否针..."
 category: "求职作战室"
+tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
-
 # Embedding_Model_Selection
 ## 问题
 Embedding_Model_Selection

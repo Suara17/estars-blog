@@ -1,15 +1,12 @@
 ---
-title: "Context Engine Abstraction 整理"
-published: 2026-06-10
-description: "# Context_Engine_Abstraction ## 问题 Context_Engine_Abstraction ## 标准回答 # OpenClaw 的可插拔 Context Engine：为什么需要抽象？ 支持哪些策略？ **"
-tags: ["求职作战室", "面经"]
+title: "Context_Engine_Abstraction"
+published: 2026-06-12
+description: "Context_Engine_Abstraction 支持哪些策略？ 核心原因：Context 管理没有万能方案。 不同的应用场景、模型窗口大小、任务类型，最优策略差异巨大。将 Context 管理抽象成接口（定义“做什么”），让策略实现（“怎么做”）可独立替换，既方便内部迭代，也方便社区扩展。这是经典的策略模式。 OpenClaw 的 ContextEngine 接口覆盖完整生命周期： | 阶段..."
 category: "求职作战室"
+tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
-
 # Context_Engine_Abstraction
 ## 问题
 Context_Engine_Abstraction

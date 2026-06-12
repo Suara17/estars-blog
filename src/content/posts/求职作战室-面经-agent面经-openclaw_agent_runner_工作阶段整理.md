@@ -1,15 +1,12 @@
 ---
-title: "OpenClaw Agent Runner 工作阶段整理"
-published: 2026-06-10
-description: "# OpenClaw 的 Agent Runner 是如何工作的？一次 Agent 运行经历了哪些阶段？ ## 核心回答 Agent Runner 是 OpenClaw 的核心调度器（指挥中心），负责协调 LLM 调用、工具执行、错误处理等"
-tags: ["求职作战室", "面经"]
+title: "OpenClaw 的 Agent Runner 是如何工作的？一次 Agent 运行经历了哪些阶段？"
+published: 2026-06-12
+description: "Agent Runner 是 OpenClaw 的核心调度器（指挥中心），负责协调 LLM 调用、工具执行、错误处理等所有环节。一次完整的 Agent 运行（从用户发消息到最终输出）大致经历以下 6 个阶段： 1. 排队 先进 session 级队列（保证同一会话串行），再进全局队列（控制总并发），防止资源被打满。 2. 准备 解析 workspace、provider/model、thinkin..."
 category: "求职作战室"
+tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
-
 # OpenClaw 的 Agent Runner 是如何工作的？一次 Agent 运行经历了哪些阶段？
 
 ## 核心回答

@@ -1,15 +1,12 @@
 ---
-title: "秋招 AI应用开发 Agent 复习笔记"
-published: 2026-06-10
-description: "# 🎯 AI 应用开发 / Agent 方向 · 秋招复习笔记 > 📅 整理时间：2026-06-02 > 📚 来源：基于 workspace 内 18 份面经资料整合 > 🎯 适用：AI 应用开发 / Agent 开发 / 大模型应用 校"
-tags: ["求职作战室", "面经"]
+title: "🎯 AI 应用开发 / Agent 方向 · 秋招复习笔记"
+published: 2026-06-12
+description: "> 📅 整理时间：2026-06-02 > 📚 来源：基于 workspace 内 18 份面经资料整合 > 🎯 适用：AI 应用开发 / Agent 开发 / 大模型应用 校招岗位 --- 1. Agent 核心概念与架构 2. Agent 四种范式深度对比 3. RAG 检索增强生成 4. MCP 协议 5. Memory 记忆系统 6. Prompt 工程"
 category: "求职作战室"
+tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
-
 # 🎯 AI 应用开发 / Agent 方向 · 秋招复习笔记
 
 > 📅 整理时间：2026-06-02
