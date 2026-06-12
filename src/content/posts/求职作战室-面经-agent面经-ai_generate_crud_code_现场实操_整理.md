@@ -1,12 +1,15 @@
 ---
-title: "AI_Generate_CRUD_Code_现场实操"
-published: 2026-06-12
-description: "AI_Generate_CRUD_Code_现场实操 这是一道典型的现场实操题，考察候选人利用AI工具快速生成后端代码的能力？ 在15分钟内完成，需要遵循以下步骤： 操作流程： 理解Schema：提取数据模型定义（字段、类型、约束、关系） 设计RESTful端点： - GET /resources - 列表查询（支持分页、过滤、排序） - POST /resources - 创建资源 - GET ..."
+title: "AI Generate CRUD Code 现场实操 整理"
+published: 2026-06-10
+description: "# AI_Generate_CRUD_Code_现场实操 ## 问题 AI_Generate_CRUD_Code_现场实操 ## 标准回答 # 现场实操：给定数据Schema生成符合RESTful规范的CRUD接口代码 这是一道典型的现场实"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # AI_Generate_CRUD_Code_现场实操
 ## 问题
 AI_Generate_CRUD_Code_现场实操

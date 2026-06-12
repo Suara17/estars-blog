@@ -1,12 +1,15 @@
 ---
-title: "Contextual_Query_Augmentation"
-published: 2026-06-12
-description: "Contextual_Query_Augmentation ``` 空上下文处理策略 当检索不到相关文档时，系统需要优雅降级： - 保守策略：指示模型不要回答（默认行为） - 自定义策略：通过自定义模板引导模型给出友好提示，避免生成幻觉内容 - 混合策略：允许模型基于自身知识回答，但明确告知信息来源 --- A： - 查询重写：修改用户查询本身，使其更适合检索（如扩写、缩写、纠错）"
+title: "Contextual Query Augmentation 整理"
+published: 2026-06-10
+description: "# Contextual_Query_Augmentation ## 问题 Contextual_Query_Augmentation ## 标准回答 ``` ### 3？ 空上下文处理策略 当检索不到相关文档时，系统需要优雅降级： - *"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # Contextual_Query_Augmentation
 ## 问题
 Contextual_Query_Augmentation

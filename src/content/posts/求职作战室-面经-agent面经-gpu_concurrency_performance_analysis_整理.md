@@ -1,12 +1,15 @@
 ---
-title: "GPU_Concurrency_Performance_Analysis"
-published: 2026-06-12
-description: "GPU_Concurrency_Performance_Analysis 不会简单平均成每人 1 token/s，每个用户实际看到的响应速度可能是几十 token/s。LLM 推理不是把算力切成 1000 份分给 1000 个用户，而是靠批处理（Batching）把多个请求打包到一起算。GPU 擅长并行计算，100 个请求打成一个 batch，计算耗时与处理单个请求接近，吞吐量直接翻几十倍。 假设..."
+title: "GPU Concurrency Performance Analysis 整理"
+published: 2026-06-10
+description: "# GPU_Concurrency_Performance_Analysis ## 问题 GPU_Concurrency_Performance_Analysis ## 标准回答 # GPU集群并发访问性能分析：为什么不是简单平均？ 不会简"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # GPU_Concurrency_Performance_Analysis
 ## 问题
 GPU_Concurrency_Performance_Analysis

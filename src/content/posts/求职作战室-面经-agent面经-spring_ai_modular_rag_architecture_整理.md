@@ -1,12 +1,15 @@
 ---
-title: "Spring_AI_Modular_RAG_Architecture"
-published: 2026-06-12
-description: "Spring_AI_Modular_RAG_Architecture Spring AI 提出的模块？ RAG 架构将检索增强生成过程分解为 预检索 (Pre-Retrieval)、检索 (Retrieval)、检索后 (Post-Retrieval) 三个核心阶段，每个阶段包含可配置的组件，以提升大模型响应的准确性和灵活性。 | 阶段 | 职责 | 核心组件 | |------|------|-..."
+title: "Spring AI Modular RAG Architecture 整理"
+published: 2026-06-10
+description: "# Spring_AI_Modular_RAG_Architecture ## 问题 Spring_AI_Modular_RAG_Architecture ## 标准回答 # Spring AI 模块化 RAG 架构：预检索、检索、后检索三"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # Spring_AI_Modular_RAG_Architecture
 ## 问题
 Spring_AI_Modular_RAG_Architecture

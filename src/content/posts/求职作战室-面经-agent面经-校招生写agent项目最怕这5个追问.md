@@ -1,12 +1,15 @@
 ---
-title: "校招生写Agent项目，最怕这5个追问"
-published: 2026-06-12
-description: "> 来源：小红书 @黄同学h > 原文链接：http://xhslink.com/o/5TeS1z9FWsQ > 发布时间：2026-04-11 > 标签：Agent、Agent开发、后端开发、互联网大厂、Agent项目 > 收藏 311 · 点赞 222 · 评论 4 --- 很多同学现在都会在简历上补一个 Agent 项目，但真正拉开差距的，是面试官顺着往下问的时候，你能不能讲明白。 我自己前..."
+title: "校招生写Agent项目最怕这5个追问"
+published: 2026-06-10
+description: "# 校招生写Agent项目，最怕这5个追问 > 来源：小红书 @黄同学h > 原文链接：http://xhslink.com/o/5TeS1z9FWsQ > 发布时间：2026-04-11 > 标签：Agent、Agent开发、后端开发、互"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # 校招生写Agent项目，最怕这5个追问
 
 > 来源：小红书 @黄同学h

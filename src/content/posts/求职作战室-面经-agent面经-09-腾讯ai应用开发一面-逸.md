@@ -1,12 +1,15 @@
 ---
-title: "腾讯 AI 应用开发 一面"
-published: 2026-06-12
-description: "来源：小红书笔记（作者：逸，2026-04-11） 链接：http://xhslink.com/o/2yiaDG9CXww 数据：3357 点赞 / 6245 收藏 / 120 评论 / 863 分享 --- Agent（智能体）是一种能够感知环境、做出决策并采取行动的系统。核心组件包括： - Planning（规划）：任务分解与反思 - Memory（记忆）：短期/长期记忆存储 - Tools（..."
+title: "09 腾讯AI应用开发一面 逸"
+published: 2026-06-10
+description: "# 腾讯 AI 应用开发 一面 **来源**：小红书笔记（作者：逸，2026-04-11） **链接**：http://xhslink.com/o/2yiaDG9CXww **数据**：3357 点赞 / 6245 收藏 / 120 评论 "
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # 腾讯 AI 应用开发 一面
 
 **来源**：小红书笔记（作者：逸，2026-04-11）  

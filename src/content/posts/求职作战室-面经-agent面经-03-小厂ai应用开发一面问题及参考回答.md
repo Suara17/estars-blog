@@ -1,12 +1,15 @@
 ---
-title: "小厂AI应用开发一面问题及参考回答"
-published: 2026-06-12
-description: "参考回答： - 运作机制：当用户提问或触发条件满足时，系统会从 skill 库中匹配最合适的 skill，然后将其内容注入到当前的 Prompt 上下文中，交由大模型处理。 - 返回形式：通常是以自然语言描述 + 结构化参数（JSON Schema）的形式。例如，先有一段描述该 skill 功能的说明文字，再附带一个定义好输入输出格式的 JSON Schema，让模型知道如何调用。 参考回答： -..."
+title: "03 小厂AI应用开发一面问题及参考回答"
+published: 2026-06-10
+description: "# 小厂AI应用开发一面问题及参考回答 ## 4. 讲下skill的运作机制，skill的内容是以什么形式返回给大模型的？ **参考回答**： - **运作机制**：当用户提问或触发条件满足时，系统会从 skill 库中匹配最合适的 ski"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # 小厂AI应用开发一面问题及参考回答
 
 ## 4. 讲下skill的运作机制，skill的内容是以什么形式返回给大模型的？

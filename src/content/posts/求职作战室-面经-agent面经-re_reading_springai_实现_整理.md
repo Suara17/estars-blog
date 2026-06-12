@@ -1,12 +1,15 @@
 ---
-title: "Re_Reading_SpringAI_实现"
-published: 2026-06-12
-description: "Re_Reading_SpringAI_实现 如何基于 Spring AI 实现 Re-Reading Advisor？ Re-Reading（重读），也称为 Re2，是一种通过让大语言模型重新阅读问题来提高其推理能力的技术。核心思想是：对于复杂问题，重复阅读和审视问题有助于模型更好地理解题意和约束，从而生成更准确、更深入的回答。有文献研究证明这是有一定效果的。 注意：这种方法会因重复处理输入导致..."
+title: "Re Reading SpringAI 实现 整理"
+published: 2026-06-10
+description: "# Re_Reading_SpringAI_实现 ## 问题 Re_Reading_SpringAI_实现 ## 标准回答 # 什么是 Re-Reading？ 如何基于 Spring AI 实现 Re-Reading Advisor？ Re"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # Re_Reading_SpringAI_实现
 ## 问题
 Re_Reading_SpringAI_实现

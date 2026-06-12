@@ -1,12 +1,15 @@
 ---
-title: "Agent 工具调用返回超大结果的处理策略"
-published: 2026-06-12
-description: "> 面试题：Agent 调用工具可能返回超大结果（比如代码搜索返回 50KB），这会带来什么问题？你会怎么处理？OpenClaw 是怎么做的？ --- | 问题 | 说明 | |------|------| | Token 爆炸 | 50KB 文本 ≈ 12000+ token，一条结果就干掉 128K 窗口的近 10% | | 挤占上下文空间 | 对话历史、系统提示、用户消息全被挤压，模型理解质..."
+title: "Agent超大结果面试题整理版"
+published: 2026-06-10
+description: "# Agent 工具调用返回超大结果的处理策略 > 面试题：Agent 调用工具可能返回超大结果（比如代码搜索返回 50KB），这会带来什么问题？你会怎么处理？OpenClaw 是怎么做的？ --- ## 一、超大结果带来的三个问题 | 问"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # Agent 工具调用返回超大结果的处理策略
 
 > 面试题：Agent 调用工具可能返回超大结果（比如代码搜索返回 50KB），这会带来什么问题？你会怎么处理？OpenClaw 是怎么做的？

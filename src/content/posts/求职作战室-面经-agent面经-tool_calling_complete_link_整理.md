@@ -1,12 +1,15 @@
 ---
-title: "Tool_Calling_Complete_Link"
-published: 2026-06-12
-description: "Tool_Calling_Complete_Link Tool Calling 的核心链路就四步：定义工具 → LLM 决策 → 系统？ 行 → 结果回传。 打个比方：LLM 就像一个只会动嘴的指挥官，它不能亲自去查数据库、读文件，但它可以"下命令"让外部系统去执行，然后看执行报告决定下一步。Tool Calling 就是这个"下命令再拿报告"的标准化流程。 每个工具本质上是一段 JSON Sch..."
+title: "Tool Calling Complete Link 整理"
+published: 2026-06-10
+description: "# Tool_Calling_Complete_Link ## 问题 Tool_Calling_Complete_Link ## 标准回答 # Tool Calling（工具调用）完整链路：定义、调用与回传 Tool Calling 的核心"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # Tool_Calling_Complete_Link
 ## 问题
 Tool_Calling_Complete_Link

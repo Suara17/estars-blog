@@ -1,12 +1,15 @@
 ---
-title: "Compaction_OpenClaw_策略"
-published: 2026-06-12
-description: "Compaction_OpenClaw_策略 Compaction（压实/压缩）：当裁剪（直接丢早期消息）已经不够用时，换用？ LLM 把一大段对话历史压缩成一段精炼摘要，用摘要替换原始消息。这样大幅缩减 token 占用，但关键信息（决策、待办、结论）仍保留。 OpenClaw 的 Compaction 核心流程（4 步）： 分块 (Chunking)：按 token 预算切分消息（默认 2 段..."
+title: "Compaction OpenClaw 策略 整理"
+published: 2026-06-10
+description: "# Compaction_OpenClaw_策略 ## 问题 Compaction_OpenClaw_策略 ## 标准回答 # 当对话历史太长、裁剪不够用时：Compaction（压缩）及 OpenClaw 策略 **Compaction（"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # Compaction_OpenClaw_策略
 ## 问题
 Compaction_OpenClaw_策略

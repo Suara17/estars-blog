@@ -1,12 +1,15 @@
 ---
-title: "秋招以来的AI面经问题 All"
-published: 2026-06-12
-description: "> 来源：小红书 @玖 > 原文链接：http://xhslink.com/o/4THd9NZseQI > 发布时间：2026-01-30 > 标签：面试、面经、校招、秋招、互联网大厂、AI > 收藏 1633 · 点赞 815 · 评论 37 --- 1. 为什么做 Agent 项目？ 2. 了解过市面上有哪些智能体 Agent 吗 3. 讲下 Agent 项目 4. Agent 项目开发的框架"
+title: "秋招AI面经问题all"
+published: 2026-06-10
+description: "# 秋招以来的AI面经问题 All > 来源：小红书 @玖 > 原文链接：http://xhslink.com/o/4THd9NZseQI > 发布时间：2026-01-30 > 标签：面试、面经、校招、秋招、互联网大厂、AI > 收藏 1"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # 秋招以来的AI面经问题 All
 
 > 来源：小红书 @玖

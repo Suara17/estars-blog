@@ -1,12 +1,15 @@
 ---
-title: "Multi_Knowledge_Base_RAG"
-published: 2026-06-12
-description: "Multi_Knowledge_Base_RAG 多知识库 RAG 的核心挑战是：不同知识库的数据分布、格式、质量各异，直接检索容易引入噪声或遗漏关键信息，导致效率和准确性下降，甚至产生幻觉。 解决方案：采用路由 + 融合的架构。 路由层（Router）：在检索前，先判断用户问题属于哪个知识库。可用方案： - 规则路由：基于关键词匹配（如“医疗”问题路由到医疗库）。 - 模型路由：用小模型（如 B..."
+title: "Multi Knowledge Base RAG 整理"
+published: 2026-06-10
+description: "# Multi_Knowledge_Base_RAG ## 问题 Multi_Knowledge_Base_RAG ## 标准回答 # 你有多个知识库，做 RAG 的时候，怎么保证查询效率和准确性兼容，并尽可能减少幻觉？ 多知识库 RAG "
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # Multi_Knowledge_Base_RAG
 ## 问题
 Multi_Knowledge_Base_RAG

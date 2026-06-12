@@ -1,12 +1,15 @@
 ---
-title: "Fine_Tuning_原理与场景"
-published: 2026-06-12
-description: "Fine_Tuning_原理与场景 大模型微调是在预训练模型的基础上，用特定领域的数据集继续训练，让模型的权重朝着目标任务的方向调整？ 本质上是在通用知识的基础上“精雕细琢”，让模型在某个垂直领域表现得更专业。 微调的核心原理是迁移学习：预训练模型已在海量数据上学会语言通用规律，微调用少量领域数据让模型学会特定表达方式和知识。 专业领域应用：如医疗诊断、法律咨询，基础模型对专业术语掌握不够深。用1..."
+title: "Fine Tuning 原理与场景 整理"
+published: 2026-06-10
+description: "# Fine_Tuning_原理与场景 ## 问题 Fine_Tuning_原理与场景 ## 标准回答 # 大模型微调 (Fine-tuning) 原理与适用场景 大模型微调是在预训练模型的基础上，用特定领域的数据集继续训练，让模型的权重朝"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # Fine_Tuning_原理与场景
 ## 问题
 Fine_Tuning_原理与场景

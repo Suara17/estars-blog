@@ -1,12 +1,15 @@
 ---
-title: "Context_Window_核心约束与处理策略"
-published: 2026-06-12
-description: "Context_Window_核心约束与处理策略 Context Window（上下文窗口）是大语言模型（LLM）单次请求能处理的最大 token 数量。Token 是模型处理文本的最小单位，英文约 1 token ≈ 4 个字符，中文 1 个汉字通常 2-3 个 token。 为什么是 Agent 工程中最核心的约束？ Agent 的上下文里塞的东西太多： - System Prompt（200..."
+title: "Context Window 核心约束与处理策略 整理"
+published: 2026-06-10
+description: "# Context_Window_核心约束与处理策略 ## 问题 Context_Window_核心约束与处理策略 ## 标准回答 # Agent 的 Context Window：核心约束与处理策略 ## 什么是 Context Wind"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # Context_Window_核心约束与处理策略
 ## 问题
 Context_Window_核心约束与处理策略

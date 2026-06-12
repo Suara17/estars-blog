@@ -1,12 +1,15 @@
 ---
-title: "ReAct_模式构建自主规划智能体"
-published: 2026-06-12
-description: "ReAct_模式构建自主规划智能体 如何基于 ReAct 模式构建具备自主规划能力的 AI 智能体？ ReAct（Reasoning + Acting） 是一种让大语言模型交替进行推理和行动的 Prompt 范式。模型在每一步先“思考”（Reasoning），然后“行动”（Acting），再根据观察结果（Observation）继续思考，形成闭环。这使得 AI 能主动调用工具、获取外部信息，并动态..."
+title: "ReAct 模式构建自主规划智能体 整理"
+published: 2026-06-10
+description: "# ReAct_模式构建自主规划智能体 ## 问题 ReAct_模式构建自主规划智能体 ## 标准回答 # 什么是 ReAct？ 如何基于 ReAct 模式构建具备自主规划能力的 AI 智能体？ **ReAct（Reasoning + Ac"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # ReAct_模式构建自主规划智能体
 ## 问题
 ReAct_模式构建自主规划智能体

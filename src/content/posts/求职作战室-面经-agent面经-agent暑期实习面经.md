@@ -1,12 +1,15 @@
 ---
 title: "Agent暑期实习面经"
-published: 2026-06-12
-description: "> 来源：小红书 @菌菌 > 原文链接：http://xhslink.com/o/1bp55UaMqkL > 发布时间：2026-04-27 > 标签：暑期实习、暑期实习面经、面经 > 收藏 1095 · 点赞 699 · 评论 57 我从后端转 Agent，但是简历里没写任何后端内容，某种程度上缩减了面试官拷打的范围，因此大部分时间都在深挖项目，几乎没有任何传统后端八股。 以下是从数十场大厂暑期..."
+published: 2026-06-10
+description: "# Agent暑期实习面经 > 来源：小红书 @菌菌 > 原文链接：http://xhslink.com/o/1bp55UaMqkL > 发布时间：2026-04-27 > 标签：暑期实习、暑期实习面经、面经 > 收藏 1095 · 点赞 "
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # Agent暑期实习面经
 
 > 来源：小红书 @菌菌

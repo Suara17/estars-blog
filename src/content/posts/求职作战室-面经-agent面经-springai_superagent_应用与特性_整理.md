@@ -1,12 +1,15 @@
 ---
-title: "SpringAI_SuperAgent_应用与特性"
-published: 2026-06-12
-description: "SpringAI_SuperAgent_应用与特性 用到了哪些特性？ 在 AI 超级智能体项目中，Spring AI 提供了构建模块化、可扩展 Agent 的核心能力，主要用到以下特性： 1. ChatClient 与工具调用：通过 @Tool 注解将业务能力（搜索、数据库查询等）暴露给 LLM，实现 ReAct 循环。 2. Advisor 链：在请求前后插入自定义逻辑，如日志、限流、记忆加载、..."
+title: "SpringAI SuperAgent 应用与特性 整理"
+published: 2026-06-10
+description: "# SpringAI_SuperAgent_应用与特性 ## 问题 SpringAI_SuperAgent_应用与特性 ## 标准回答 # 你在 AI 超级智能体项目中如何利用 Spring AI 开发应用？ 用到了哪些特性？ ## 标准回"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # SpringAI_SuperAgent_应用与特性
 ## 问题
 SpringAI_SuperAgent_应用与特性

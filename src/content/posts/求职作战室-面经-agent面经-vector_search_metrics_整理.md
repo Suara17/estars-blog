@@ -1,12 +1,15 @@
 ---
-title: "Vector_Search_Metrics"
-published: 2026-06-12
-description: "Vector_Search_Metrics 向量搜索的核心是衡量两个向量的相似程度，三种常见方法各有侧重： | 方法 | 原理 | 取值范围 | 适用场景 | |---？ --|------|----------|----------| | 余弦相似度 | 计算两个向量的夹角，只看方向不看长度 | -1 到 1（1 表示完全同向） | 文本语义检索、推荐系统 | | 欧几里得距离 | 空间中两点之..."
+title: "Vector Search Metrics 整理"
+published: 2026-06-10
+description: "# Vector_Search_Metrics ## 问题 Vector_Search_Metrics ## 标准回答 # 向量搜索方法：余弦相似度、欧几里得距离、曼哈顿距离 向量搜索的核心是衡量两个向量的相似程度，三种常见方法各有侧重： "
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # Vector_Search_Metrics
 ## 问题
 Vector_Search_Metrics

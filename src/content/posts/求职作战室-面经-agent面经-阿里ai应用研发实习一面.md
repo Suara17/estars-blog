@@ -1,12 +1,15 @@
 ---
-title: "阿里 AI 应用研发实习一面面经"
-published: 2026-06-12
-description: "> 来源：小红书 @未知作者 > 原文链接：https://www.xiaohongshu.com/discovery/item/6a054355000000003501fec8 > 发布时间：2026-01-30 > 标签：面经、面试题、互联网大厂、AI Agent、RAG、JVM --- 1. AI Agents 和大模型的本质区别是什么？ - Agent 相比单纯的大模型对话进化在哪些方面？..."
+title: "阿里AI应用研发实习一面"
+published: 2026-06-10
+description: "# 阿里 AI 应用研发实习一面面经 > 来源：小红书 @未知作者 > 原文链接：https://www.xiaohongshu.com/discovery/item/6a054355000000003501fec8 > 发布时间：2026"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # 阿里 AI 应用研发实习一面面经
 
 > 来源：小红书 @未知作者

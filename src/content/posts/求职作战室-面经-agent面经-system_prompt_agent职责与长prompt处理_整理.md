@@ -1,12 +1,15 @@
 ---
-title: "System_Prompt_Agent职责与长Prompt处理"
-published: 2026-06-12
-description: "System_Prompt_Agent职责与长Prompt处理 System Prompt 是？ Agent 的“操作系统”，承载了所有行为的底层规则。在 Agent 系统中，其职责可归为五类： 角色定义和行为准则：告诉模型“你是谁”（编程助手、客服等），并约束语气、风格和边界。 工具使用规范和约束：告知有哪些工具可用、如何调用、何时使用。 输出格式要求：规定回复格式（JSON、Markdown、..."
+title: "System Prompt Agent职责与长Prompt处理 整理"
+published: 2026-06-10
+description: "# System_Prompt_Agent职责与长Prompt处理 ## 问题 System_Prompt_Agent职责与长Prompt处理 ## 标准回答 # System Prompt 在 Agent 系统中的职责与长 Prompt "
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # System_Prompt_Agent职责与长Prompt处理
 ## 问题
 System_Prompt_Agent职责与长Prompt处理

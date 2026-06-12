@@ -1,12 +1,15 @@
 ---
-title: "Tool_Calling_SpringAI"
-published: 2026-06-12
-description: "Tool_Calling_SpringAI 如何利用 Spring AI 实现工具调用？ Tool Calling（工具调用） 是一种让大语言模型能够请求调用外部函数或 API 的机制。模型不直接执行代码，而是输出结构化的调用请求（函数名和参数），由应用程序负责实际执行并将结果回传给模型。这使 LLM 能够获取实时信息、操作外部系统、执行计算等。 在 Spring AI 中实现工具调用： 定义工具..."
+title: "Tool Calling SpringAI 整理"
+published: 2026-06-10
+description: "# Tool_Calling_SpringAI ## 问题 Tool_Calling_SpringAI ## 标准回答 # 什么是工具调用 Tool Calling？ 如何利用 Spring AI 实现工具调用？ **Tool Callin"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # Tool_Calling_SpringAI
 ## 问题
 Tool_Calling_SpringAI

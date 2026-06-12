@@ -1,12 +1,15 @@
 ---
-title: "Agent 项目冲大厂实习建议（摘自小红书笔记）"
-published: 2026-06-12
-description: "> 来源：小红书「黄同学h」 > 链接：http://xhslink.com/o/9Nubmmnrl54 > 抓取时间：2026-05-31 --- | 项目类型 | 问题所在 | |---------|---------| | 聊天助手 | 2024 年还行，现在已经不够看了 | | 旅游 Agent | 缺少包装且太多人做，毫无差异化 | | 各种 RAG（BM25 + Reranking） ..."
+title: "05 Agent项目大厂实习建议 小红书笔记"
+published: 2026-06-10
+description: "# Agent 项目冲大厂实习建议（摘自小红书笔记） > 来源：小红书「黄同学h」 > 链接：http://xhslink.com/o/9Nubmmnrl54 > 抓取时间：2026-05-31 --- ## 🚫 简历上太多人做的\"过时\"项"
+tags: ["求职作战室", "面经"]
 category: "求职作战室"
-tags: ["\u6c42\u804c\u4f5c\u6218\u5ba4", "\u9762\u7ecf"]
 draft: false
 lang: zh-CN
+pinned: false
+comment: true
 ---
+
 # Agent 项目冲大厂实习建议（摘自小红书笔记）
 
 > 来源：小红书「黄同学h」  
