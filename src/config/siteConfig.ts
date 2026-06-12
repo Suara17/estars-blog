@@ -20,6 +20,9 @@ export const siteConfig: SiteConfig = {
 		border: true,
 		followTheme: false,
 	},
+	// 全站访问密码（SHA-256 哈希，留空则不限制）
+	sitePassword: "89e33a0e37d723511cf12942936a0838f208dfbac6c571456427e766f3ad035c",
+
 	favicon: [{ src: "/favicon/favicon.ico" }],
 	navbar: {
 		logo: {

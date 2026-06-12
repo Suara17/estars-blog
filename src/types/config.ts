@@ -145,6 +145,12 @@ export type SiteConfig = {
 	};
 
 	// 图片优化配置
+	/** 全站访问密码哈希（SHA-256）。设置后所有页面需先输入密码才能浏览；留空则不限制。 */
+	sitePassword?: string;
+
+	/** 全站访问密码哈希（SHA-256）。设置后所有页面需先输入密码才能浏览；留空则不限制。 */
+	sitePassword?: string;
+
 	imageOptimization?: {
 		/**
 		 * 输出图片格式
