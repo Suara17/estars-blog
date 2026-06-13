@@ -4,12 +4,12 @@ import { fontConfig } from "./fontConfig";
 const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
-	title: "Estars的博客",
+	title: "Estars的收藏夹",
 	subtitle: "这条路要走完，才能看到世界的终点，是海纳百川，还是星火燎原。",
 	site_url: "https://estars-blog.pages.dev",
 	description:
-		"Estars的博客，基于 Firefly 与 Astro 搭建的个人博客。",
-	keywords: ["Estars", "博客", "Astro", "Firefly", "Cloudflare Pages"],
+		"Estars的收藏夹，基于 Firefly 与 Astro 搭建的博客。",
+	keywords: ["Estars", "收藏夹", "Astro", "Firefly", "Cloudflare Pages"],
 	themeColor: {
 		hue: 165,
 		fixed: false,
@@ -21,16 +21,16 @@ export const siteConfig: SiteConfig = {
 		followTheme: false,
 	},
 	// 全站访问密码（SHA-256 哈希，留空则不限制）
-	sitePassword: "89e33a0e37d723511cf12942936a0838f208dfbac6c571456427e766f3ad035c",
+	sitePassword: "",
 
 	favicon: [{ src: "/favicon/favicon.ico" }],
 	navbar: {
 		logo: {
 			type: "image",
 			value: "/uploads/avatar/头像图.jpg",
-			alt: "Estars的博客",
+			alt: "Estars的收藏夹",
 		},
-		title: "Estars的博客",
+		title: "Estars的收藏夹",
 		widthFull: false,
 		menuAlign: "center",
 		followTheme: false,

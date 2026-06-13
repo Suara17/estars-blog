@@ -8,7 +8,6 @@ import FontManager from "@components/features/FontManager.astro";
 import MusicManager from "@components/features/MusicManager.astro";
 import SakuraEffect from "@components/features/SakuraEffect.astro";
 import ConfigCarrier from "@components/layout/ConfigCarrier.astro";
-import SiteGate from "@components/features/SiteGate.svelte";
 
 import {
 	backgroundWallpaper,
@@ -580,11 +579,6 @@ const siteLang = lang.replace("_", "-");
   >
 
     <div id="progress-bar"></div>
-
-    <!-- 全站密码门禁 -->
-    {siteConfig.sitePassword && (
-      <SiteGate passwordHash={siteConfig.sitePassword} client:only="svelte" />
-    )}
 
     <!-- 页面顶部渐变高光效果 - 只在full和semifull模式下显示 -->
     {shouldShowTopHighlight && <div class="top-gradient-highlight" />}
