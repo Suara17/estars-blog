@@ -30,7 +30,7 @@ export const siteConfig: SiteConfig = {
 			value: "/uploads/avatar/头像图.jpg",
 			alt: "Estars的收藏夹",
 		},
-		title: "Estars的收藏夹",
+		title: "Estars收藏夹",
 		widthFull: false,
 		menuAlign: "center",
 		followTheme: false,
