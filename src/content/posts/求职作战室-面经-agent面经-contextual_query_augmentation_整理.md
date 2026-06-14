@@ -1,13 +1,11 @@
 ---
-title: "Contextual Query Augmentation 整理"
-published: 2026-06-10
-description: "# Contextual_Query_Augmentation ## 问题 Contextual_Query_Augmentation ## 标准回答 ``` ### 3？ 空上下文处理策略 当检索不到相关文档时，系统需要优雅降级： - *"
-tags: ["求职作战室", "面经"]
+title: "Contextual_Query_Augmentation"
+published: 2026-06-14
+description: "Contextual_Query_Augmentation"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # Contextual_Query_Augmentation

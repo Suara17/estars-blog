@@ -1,13 +1,11 @@
 ---
-title: "Multi Knowledge Base RAG 整理"
-published: 2026-06-10
-description: "# Multi_Knowledge_Base_RAG ## 问题 Multi_Knowledge_Base_RAG ## 标准回答 # 你有多个知识库，做 RAG 的时候，怎么保证查询效率和准确性兼容，并尽可能减少幻觉？ 多知识库 RAG "
-tags: ["求职作战室", "面经"]
+title: "Multi_Knowledge_Base_RAG"
+published: 2026-06-14
+description: "Multi_Knowledge_Base_RAG"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # Multi_Knowledge_Base_RAG

@@ -1,13 +1,11 @@
 ---
-title: "09 腾讯AI应用开发一面 逸"
-published: 2026-06-10
-description: "# 腾讯 AI 应用开发 一面 **来源**：小红书笔记（作者：逸，2026-04-11） **链接**：http://xhslink.com/o/2yiaDG9CXww **数据**：3357 点赞 / 6245 收藏 / 120 评论 "
-tags: ["求职作战室", "面经"]
+title: "腾讯 AI 应用开发 一面"
+published: 2026-06-14
+description: "**来源**：小红书笔记（作者：逸，2026-04-11）"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # 腾讯 AI 应用开发 一面

@@ -1,13 +1,11 @@
 ---
-title: "SpringAI SuperAgent 应用与特性 整理"
-published: 2026-06-10
-description: "# SpringAI_SuperAgent_应用与特性 ## 问题 SpringAI_SuperAgent_应用与特性 ## 标准回答 # 你在 AI 超级智能体项目中如何利用 Spring AI 开发应用？ 用到了哪些特性？ ## 标准回"
-tags: ["求职作战室", "面经"]
+title: "SpringAI_SuperAgent_应用与特性"
+published: 2026-06-14
+description: "SpringAI_SuperAgent_应用与特性"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # SpringAI_SuperAgent_应用与特性

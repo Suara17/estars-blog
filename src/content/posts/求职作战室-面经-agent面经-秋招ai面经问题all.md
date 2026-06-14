@@ -1,13 +1,11 @@
 ---
-title: "秋招AI面经问题all"
-published: 2026-06-10
-description: "# 秋招以来的AI面经问题 All > 来源：小红书 @玖 > 原文链接：http://xhslink.com/o/4THd9NZseQI > 发布时间：2026-01-30 > 标签：面试、面经、校招、秋招、互联网大厂、AI > 收藏 1"
-tags: ["求职作战室", "面经"]
+title: "秋招以来的AI面经问题 All"
+published: 2026-06-14
+description: "1. 为什么做 Agent 项目？"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # 秋招以来的AI面经问题 All

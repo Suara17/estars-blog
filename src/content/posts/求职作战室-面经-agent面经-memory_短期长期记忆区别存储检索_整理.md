@@ -1,13 +1,11 @@
 ---
-title: "Memory 短期长期记忆区别存储检索 整理"
-published: 2026-06-10
-description: "# Memory_短期长期记忆区别存储检索 ## 问题 Memory_短期长期记忆区别存储检索 ## 标准回答 # 解释「短期记忆」和「长期记忆」在 Agent 系统中的区别，分别适合怎么存储和检索？ **短期记忆**：在当前会话或最近几轮"
-tags: ["求职作战室", "面经"]
+title: "Memory_短期长期记忆区别存储检索"
+published: 2026-06-14
+description: "Memory_短期长期记忆区别存储检索"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # Memory_短期长期记忆区别存储检索

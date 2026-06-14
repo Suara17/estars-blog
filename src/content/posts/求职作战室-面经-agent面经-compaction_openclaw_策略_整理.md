@@ -1,13 +1,11 @@
 ---
-title: "Compaction OpenClaw 策略 整理"
-published: 2026-06-10
-description: "# Compaction_OpenClaw_策略 ## 问题 Compaction_OpenClaw_策略 ## 标准回答 # 当对话历史太长、裁剪不够用时：Compaction（压缩）及 OpenClaw 策略 **Compaction（"
-tags: ["求职作战室", "面经"]
+title: "Compaction_OpenClaw_策略"
+published: 2026-06-14
+description: "Compaction_OpenClaw_策略"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # Compaction_OpenClaw_策略

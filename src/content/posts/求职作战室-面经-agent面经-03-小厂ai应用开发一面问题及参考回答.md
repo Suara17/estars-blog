@@ -1,13 +1,11 @@
 ---
-title: "03 小厂AI应用开发一面问题及参考回答"
-published: 2026-06-10
-description: "# 小厂AI应用开发一面问题及参考回答 ## 4. 讲下skill的运作机制，skill的内容是以什么形式返回给大模型的？ **参考回答**： - **运作机制**：当用户提问或触发条件满足时，系统会从 skill 库中匹配最合适的 ski"
-tags: ["求职作战室", "面经"]
+title: "小厂AI应用开发一面问题及参考回答"
+published: 2026-06-14
+description: "**参考回答**："
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # 小厂AI应用开发一面问题及参考回答

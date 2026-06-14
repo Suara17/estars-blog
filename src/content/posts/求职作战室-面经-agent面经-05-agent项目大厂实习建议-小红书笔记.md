@@ -1,13 +1,11 @@
 ---
-title: "05 Agent项目大厂实习建议 小红书笔记"
-published: 2026-06-10
-description: "# Agent 项目冲大厂实习建议（摘自小红书笔记） > 来源：小红书「黄同学h」 > 链接：http://xhslink.com/o/9Nubmmnrl54 > 抓取时间：2026-05-31 --- ## 🚫 简历上太多人做的\"过时\"项"
-tags: ["求职作战室", "面经"]
+title: "Agent 项目冲大厂实习建议（摘自小红书笔记）"
+published: 2026-06-14
+description: "1. **展示技术 taste（审美）**"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # Agent 项目冲大厂实习建议（摘自小红书笔记）

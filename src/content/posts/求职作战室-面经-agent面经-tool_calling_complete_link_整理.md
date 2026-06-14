@@ -1,13 +1,11 @@
 ---
-title: "Tool Calling Complete Link 整理"
-published: 2026-06-10
-description: "# Tool_Calling_Complete_Link ## 问题 Tool_Calling_Complete_Link ## 标准回答 # Tool Calling（工具调用）完整链路：定义、调用与回传 Tool Calling 的核心"
-tags: ["求职作战室", "面经"]
+title: "Tool_Calling_Complete_Link"
+published: 2026-06-14
+description: "Tool_Calling_Complete_Link"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # Tool_Calling_Complete_Link

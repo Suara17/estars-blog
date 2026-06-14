@@ -1,0 +1,270 @@
+#!/bin/sh
+# ============================================================
+# 博客新增文章同步脚本
+# 扫描源目录 -> 对比已发布文章 -> 添加 frontmatter -> git push
+# 使用方式：sh /workspace/小万工作间/estars-blog/sync-blog.sh
+# ============================================================
+
+set -e
+
+BASE="/workspace/小万工作间"
+POSTS="$BASE/estars-blog/src/content/posts"
+TODAY=$(date +%Y-%m-%d)
+
+echo "📡 博客同步 $TODAY 开始..."
+
+# ===== 定义源目录映射（7个目录） =====
+cat > /tmp/blog_sync_dirs.py << 'PYEOF'
+import os, re, glob, sys
+
+today = sys.argv[1]
+base = "/workspace/小万工作间"
+posts_dir = f"{base}/estars-blog/src/content/posts"
+
+# 已发布的文件名集合
+published = set()
+if os.path.exists(posts_dir):
+    for f in os.listdir(posts_dir):
+        if f.endswith(".md"):
+            published.add(f)
+
+# === 7个源目录映射 ===
+sources = [
+    # 1. 航海图/操作指南
+    {
+        "path": f"{base}/航海图/操作指南",
+        "prefix": "航海图-操作指南",
+        "category": "航海图",
+        "tags": ["航海图", "操作指南"],
+        "exclude": ["estars-blog博客站维护指南.md"],
+        "subdir": False,
+    },
+    # 2. 工程现场/实战.经验
+    {
+        "path": f"{base}/工程现场/实战.经验",
+        "prefix": "工程现场-实战.经验",
+        "category": "工程现场",
+        "tags": ["工程现场", "实战", "经验"],
+        "exclude": [],
+        "subdir": False,
+    },
+    # 3. 求职作战室/面经（含子目录）
+    {
+        "path": f"{base}/求职作战室/面经",
+        "prefix": "求职作战室-面经",
+        "category": "求职作战室",
+        "tags": ["求职作战室", "面经"],
+        "exclude": [],
+        "subdir": True,
+    },
+    # 4. 外部精选/L站精选
+    {
+        "path": f"{base}/外部精选/L站精选",
+        "prefix": "外部精选",
+        "category": "外部精选",
+        "tags": ["外部精选", "L站精选", "LINUX DO"],
+        "exclude": [],
+        "subdir": False,
+    },
+    # 5. 外部精选/公众号精选
+    {
+        "path": f"{base}/外部精选/公众号精选",
+        "prefix": "外部精选",
+        "category": "外部精选",
+        "tags": ["外部精选", "公众号精选"],
+        "exclude": [],
+        "subdir": False,
+    },
+    # 6. 外部精选/小红书精选
+    {
+        "path": f"{base}/外部精选/小红书精选",
+        "prefix": "外部精选-小红书精选",
+        "category": "外部精选",
+        "tags": ["外部精选", "小红书精选"],
+        "exclude": ["README.md"],
+        "subdir": False,
+    },
+    # 7. 求职作战室/岗位情报
+    {
+        "path": f"{base}/求职作战室/岗位情报",
+        "prefix": "求职作战室-岗位情报",
+        "category": "求职作战室",
+        "tags": ["求职作战室", "岗位情报"],
+        "exclude": [],
+        "subdir": False,
+    },
+]
+
+def extract_title_h1(content, fname):
+    """从 H1 提取标题"""
+    for line in content.split("\n"):
+        line = line.strip()
+        if line.startswith("# ") and not line.startswith("# "):
+            return line[2:].strip()
+    # 尝试 frontmatter name
+    m = re.search(r'^name:\s*(.+)$', content, re.MULTILINE)
+    if m:
+        return m.group(1).strip()
+    # 回退到文件名（去掉.md）
+    return os.path.splitext(fname)[0].replace("_", " ").replace("-", " ")
+
+def extract_description(content):
+    """从文件前几行提取简短描述（200字内）"""
+    lines = content.split("\n")
+    desc = ""
+    for line in lines:
+        line = line.strip()
+        # 跳过 frontmatter、空行、标题、引用、列表标记
+        if not line or line.startswith("---") or line.startswith("#") or line.startswith(">") or line.startswith("|"):
+            continue
+        if line.startswith("name:") or line.startswith("description:"):
+            continue
+        desc = line
+        break
+    if not desc and len(lines) > 2:
+        # 取第一个非空非frontmatter行
+        for line in lines[3:]:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                desc = line
+                break
+    if not desc:
+        desc = f"来自 {os.path.basename(os.path.dirname(content))} 的文章"
+    if len(desc) > 200:
+        desc = desc[:197] + "..."
+    return desc
+
+new_count = 0
+new_files = []
+
+for src in sources:
+    src_path = src["path"]
+    prefix = src["prefix"]
+    category = src["category"]
+    tags = src["tags"]
+    subdir = src["subdir"]
+    exclude = src["exclude"]
+
+    if not os.path.exists(src_path):
+        print(f"  ⚠️  目录不存在: {src_path}")
+        continue
+
+    if subdir:
+        # 递归扫描子目录
+        for root, dirs, files in os.walk(src_path):
+            for fname in sorted(files):
+                if not fname.endswith(".md"):
+                    continue
+                src_file = os.path.join(root, fname)
+                # 相对子目录路径
+                rel_dir = os.path.relpath(root, src_path)
+                if rel_dir == ".":
+                    post_name = f"{prefix}-{fname}"
+                else:
+                    post_name = f"{prefix}-{rel_dir}-{fname}"
+                # 检查是否已发布
+                if post_name in published:
+                    continue
+                # 读取文件
+                with open(src_file, "r", encoding="utf-8") as f:
+                    content = f.read()
+                title = extract_title_h1(content, fname)
+                desc = extract_description(content)
+                # 生成 frontmatter
+                frontmatter = f"""---
+title: "{title}"
+published: {today}
+description: "{desc}"
+category: "{category}"
+tags: {tags}
+draft: false
+lang: zh-CN
+---
+
+"""
+                # 跳过已有 frontmatter 的内容
+                body = content
+                if content.startswith("---"):
+                    parts = content.split("---", 2)
+                    if len(parts) >= 3:
+                        body = parts[2].strip()
+                full_content = frontmatter + body
+                # 写入 posts 目录
+                with open(os.path.join(posts_dir, post_name), "w", encoding="utf-8") as f:
+                    f.write(full_content)
+                print(f"  📝 新增: {post_name}")
+                new_count += 1
+                new_files.append(post_name)
+    else:
+        # 直接子文件
+        for fname in sorted(os.listdir(src_path)):
+            if not fname.endswith(".md"):
+                continue
+            if fname in exclude:
+                continue
+            post_name = f"{prefix}-{fname}"
+            if post_name in published:
+                continue
+            src_file = os.path.join(src_path, fname)
+            with open(src_file, "r", encoding="utf-8") as f:
+                content = f.read()
+            title = extract_title_h1(content, fname)
+            desc = extract_description(content)
+            frontmatter = f"""---
+title: "{title}"
+published: {today}
+description: "{desc}"
+category: "{category}"
+tags: {tags}
+draft: false
+lang: zh-CN
+---
+
+"""
+            body = content
+            if content.startswith("---"):
+                parts = content.split("---", 2)
+                if len(parts) >= 3:
+                    body = parts[2].strip()
+            full_content = frontmatter + body
+            with open(os.path.join(posts_dir, post_name), "w", encoding="utf-8") as f:
+                f.write(full_content)
+            print(f"  📝 新增: {post_name}")
+            new_count += 1
+            new_files.append(post_name)
+
+print(f"\n{'='*40}")
+print(f"📊 统计: 新增 {new_count} 篇")
+if new_count == 0:
+    print("✅ 没有新增文章，跳过 git 操作")
+    sys.exit(0)
+
+# git 操作
+print("\n🔄 提交到 Git...")
+import subprocess
+git_cmd = f"cd {base}/estars-blog && git add -A && git commit -m 'feat: 博客同步 {today}'"
+result = subprocess.run(git_cmd, shell=True, capture_output=True, text=True)
+print(result.stdout)
+if result.returncode != 0:
+    if "nothing to commit" in result.stdout or "nothing to commit" in result.stderr:
+        print("✅ 没有变化，跳过推送")
+    else:
+        print(f"❌ commit 失败: {result.stderr}")
+        sys.exit(1)
+else:
+    push_cmd = f"cd {base}/estars-blog && GIT_SSL_NO_VERIFY=1 git push origin main"
+    result = subprocess.run(push_cmd, shell=True, capture_output=True, text=True)
+    print(result.stdout)
+    if result.returncode != 0:
+        # 尝试不带 SSL_NO_VERIFY
+        push_cmd2 = f"cd {base}/estars-blog && git push origin main"
+        result2 = subprocess.run(push_cmd2, shell=True, capture_output=True, text=True)
+        print(result2.stdout)
+        if result2.returncode != 0:
+            print(f"❌ push 失败 (已保留本地 commit): {result2.stderr}")
+            sys.exit(1)
+
+print(f"\n🎉 博客同步完成！新增 {new_count} 篇，已推送到 GitHub → Cloudflare Pages 自动部署")
+PYEOF
+
+cd "$BASE" && python3 /tmp/blog_sync_dirs.py "$TODAY"

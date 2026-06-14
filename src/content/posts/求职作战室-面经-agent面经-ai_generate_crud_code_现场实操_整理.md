@@ -1,13 +1,11 @@
 ---
-title: "AI Generate CRUD Code 现场实操 整理"
-published: 2026-06-10
-description: "# AI_Generate_CRUD_Code_现场实操 ## 问题 AI_Generate_CRUD_Code_现场实操 ## 标准回答 # 现场实操：给定数据Schema生成符合RESTful规范的CRUD接口代码 这是一道典型的现场实"
-tags: ["求职作战室", "面经"]
+title: "AI_Generate_CRUD_Code_现场实操"
+published: 2026-06-14
+description: "AI_Generate_CRUD_Code_现场实操"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # AI_Generate_CRUD_Code_现场实操

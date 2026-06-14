@@ -1,13 +1,11 @@
 ---
-title: "System Prompt Agent职责与长Prompt处理 整理"
-published: 2026-06-10
-description: "# System_Prompt_Agent职责与长Prompt处理 ## 问题 System_Prompt_Agent职责与长Prompt处理 ## 标准回答 # System Prompt 在 Agent 系统中的职责与长 Prompt "
-tags: ["求职作战室", "面经"]
+title: "System_Prompt_Agent职责与长Prompt处理"
+published: 2026-06-14
+description: "System_Prompt_Agent职责与长Prompt处理"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # System_Prompt_Agent职责与长Prompt处理

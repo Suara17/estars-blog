@@ -1,13 +1,11 @@
 ---
-title: "ReAct 模式构建自主规划智能体 整理"
-published: 2026-06-10
-description: "# ReAct_模式构建自主规划智能体 ## 问题 ReAct_模式构建自主规划智能体 ## 标准回答 # 什么是 ReAct？ 如何基于 ReAct 模式构建具备自主规划能力的 AI 智能体？ **ReAct（Reasoning + Ac"
-tags: ["求职作战室", "面经"]
+title: "ReAct_模式构建自主规划智能体"
+published: 2026-06-14
+description: "ReAct_模式构建自主规划智能体"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # ReAct_模式构建自主规划智能体

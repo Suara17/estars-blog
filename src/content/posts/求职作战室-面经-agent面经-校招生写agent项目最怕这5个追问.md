@@ -1,13 +1,11 @@
 ---
-title: "校招生写Agent项目最怕这5个追问"
-published: 2026-06-10
-description: "# 校招生写Agent项目，最怕这5个追问 > 来源：小红书 @黄同学h > 原文链接：http://xhslink.com/o/5TeS1z9FWsQ > 发布时间：2026-04-11 > 标签：Agent、Agent开发、后端开发、互"
-tags: ["求职作战室", "面经"]
+title: "校招生写Agent项目，最怕这5个追问"
+published: 2026-06-14
+description: "很多同学现在都会在简历上补一个 Agent 项目，但真正拉开差距的，是面试官顺着往下问的时候，你能不能讲明白。"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # 校招生写Agent项目，最怕这5个追问

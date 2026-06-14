@@ -1,13 +1,11 @@
 ---
-title: "React Form Prompt Design 整理"
-published: 2026-06-10
-description: "# React_Form_Prompt_Design ## 问题 React_Form_Prompt_Design ## 标准回答 # 设计包含上下文约束的 React 表单组件 Prompt 要让大模型生成能直接使用的 React 表单组"
-tags: ["求职作战室", "面经"]
+title: "React_Form_Prompt_Design"
+published: 2026-06-14
+description: "React_Form_Prompt_Design"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # React_Form_Prompt_Design

@@ -1,15 +1,14 @@
 ---
-title: "07 字节一面面经 JiexinX"
-published: 2026-06-10
-description: "# 字节一面面经（AI/后端方向） > 来源：小红书「Jiexin.X」 > 岗位方向：AI 应用 / 后端开发 > 抓取时间：2026-05-31 --- ## 面试流程（22题全记录） ### 项目 & 经历环节 | 序号 | 问题 |"
-tags: ["求职作战室", "面经"]
+
+title: "字节一面面经（AI/后端方向）"
+published: 2026-06-14
+description: "1. **项目来源要会包装** — 不要直接说'网上找的'"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
----
 
+---
 # 字节一面面经（AI/后端方向）
 
 > 来源：小红书「Jiexin.X」  

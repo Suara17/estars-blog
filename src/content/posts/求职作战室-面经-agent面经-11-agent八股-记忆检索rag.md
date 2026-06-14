@@ -1,13 +1,11 @@
 ---
-title: "11 Agent八股 记忆检索RAG"
-published: 2026-06-10
-description: "# Agent八股分享：一天速通记忆/检索（RAG） **来源**：小红书笔记 **链接**：http://xhslink.com/o/8tkHC8Q3yVK **标签**：互联网大厂、agent、java、后端开发、实习、暑期实习 ---"
-tags: ["求职作战室", "面经"]
+title: "Agent八股分享：一天速通记忆/检索（RAG）"
+published: 2026-06-14
+description: "**来源**：小红书笔记"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # Agent八股分享：一天速通记忆/检索（RAG）

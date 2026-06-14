@@ -1,13 +1,11 @@
 ---
-title: "01 Agent评测四层体系"
-published: 2026-06-10
-description: "# Agent 评测四层体系 ## 第一层：保底 确保系统每次改动后仍能稳定运行，否则无法判断是否“改坏”。 ## 第二层：固定题目 benchmark 使用通过率、耗时和失败原因评估效果，而非凭感觉判断。 ## 第三层：过程记录 记录运行"
-tags: ["求职作战室", "面经"]
+title: "Agent 评测四层体系"
+published: 2026-06-14
+description: "确保系统每次改动后仍能稳定运行，否则无法判断是否“改坏”。"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # Agent 评测四层体系

@@ -1,13 +1,11 @@
 ---
-title: "06 AI应用开发面试复盘 老颂"
-published: 2026-06-10
-description: "# AI 应用开发岗位面试复盘（摘自小红书笔记） > 来源：小红书「AI践行者-老颂」 > 标题：上午面了一个AI应用候选人，说实话有点可惜 > 抓取时间：2026-05-31 --- ## 面试概况 候选人简历写得很满：LangChain"
-tags: ["求职作战室", "面经"]
+title: "AI 应用开发岗位面试复盘（摘自小红书笔记）"
+published: 2026-06-14
+description: "候选人简历写得很满：LangChain、RAG、微调、提示词工程、向量数据库、模型部署都有，但一问细节就露馅了。"
 category: "求职作战室"
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # AI 应用开发岗位面试复盘（摘自小红书笔记）
