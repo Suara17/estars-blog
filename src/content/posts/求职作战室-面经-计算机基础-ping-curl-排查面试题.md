@@ -1,6 +1,4 @@
----
-
-title: "ping curl 排查面试题"
+---title: "ping curl 排查面试题"
 published: 2026-06-10
 description: "'# Ping / Curl 服务不通 —— 面试高频问题及答案 > 🎯 适用岗位：运维工程师、SRE、后端开发、网络工程师 > 📅 整理日期：2026-06-07"
 ---

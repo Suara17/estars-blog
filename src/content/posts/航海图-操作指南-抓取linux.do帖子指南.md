@@ -1,6 +1,4 @@
----
-
-title: "抓取 linux.do（LINUX DO）帖子指南"
+---title: "抓取 linux.do（LINUX DO）帖子指南"
 published: 2026-06-14
 description: "linux.do 是 **Discourse 论坛**，部署在 **Cloudflare** 后面。直接用 curl 访问会返回 403，浏览器打开也会卡在 'Just a moment...' 验证页。"
 category: "航海图"
