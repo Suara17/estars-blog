@@ -1,13 +1,12 @@
 ---
-title: "AI 开发工程师实习生（线上办公）"
+title: 'AI 开发工程师实习生（线上办公）'
 published: 2026-06-14
-description: ""
-category: "求职作战室"
+description: '---'
+category: '求职作战室'
 tags: ['求职作战室', '岗位情报']
 draft: false
 lang: zh-CN
 ---
-
 # AI 开发工程师实习生（线上办公）
 
 > 来源：BOSS直聘 | 抓取日期：2026-06-11

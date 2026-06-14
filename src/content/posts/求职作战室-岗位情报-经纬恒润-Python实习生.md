@@ -1,13 +1,12 @@
 ---
-title: "Python实习生智造 - 岗位文档"
+title: 'Python实习生智造 - 岗位文档'
 published: 2026-06-14
-description: ""
-category: "求职作战室"
+description: '| 项目 | 内容 |'
+category: '求职作战室'
 tags: ['求职作战室', '岗位情报']
 draft: false
 lang: zh-CN
 ---
-
 # Python实习生智造 - 岗位文档
 
 > 来源: BOSS直聘

@@ -1,13 +1,12 @@
 ---
-title: "📝 现在AI实习生真是什么垃圾简历都敢投啊"
+title: '📝 现在AI实习生真是什么垃圾简历都敢投啊'
 published: 2026-06-14
-description: ""
-category: "外部精选"
+description: '---'
+category: '外部精选'
 tags: ['外部精选', '小红书精选']
 draft: false
 lang: zh-CN
 ---
-
 # 📝 现在AI实习生真是什么垃圾简历都敢投啊
 
 > **收藏夹来源：** 简历（昭榆 收藏）
