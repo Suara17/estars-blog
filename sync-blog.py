@@ -113,17 +113,18 @@ def extract_description(content: str) -> str:
 
 
 def build_frontmatter(title: str, category: str, tags: list, description: str) -> str:
+    # 单引号包裹 + 去引号，避免 YAML 解析问题
+    desc_clean = description.replace("'", "").replace('"', "").strip()[:120]
+    title_clean = title.replace("'", "''")
     return f"""---
-title: "{title}"
+title: '{title_clean}'
 published: {TODAY}
-description: "{description}"
-category: "{category}"
+description: '{desc_clean}'
+category: '{category}'
 tags: {tags}
 draft: false
 lang: zh-CN
----
-
-"""
+---"""
 
 
 def strip_old_frontmatter(content: str) -> str:
