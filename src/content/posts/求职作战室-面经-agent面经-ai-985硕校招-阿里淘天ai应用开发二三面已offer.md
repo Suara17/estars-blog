@@ -1,14 +1,11 @@
----title: "AI｜985硕校招｜阿里淘天AI应用开发二三面已offer"
-published: 2026-06-10
-description: "'# AI｜985硕校招｜阿里淘天AI 应用开发二三面已offer > 来源：面经哥（微信公众号） > 发布时间：2026年5月19日 > 采集时间：2026-06-05"
 ---
-## 个人背景 211本科，985硕 --- ## 二面 全程"
-tags: ["求职作战室", "面经"]
-category: "求职作战室"
+title: 'AI|985硕校招|阿里淘天AI应用开发二三面已offer'
+published: 2026-06-10
+description: '211本科985硕，阿里淘天AI应用开发二三面面试记录。二面综合考察AI视角加工程安全加项目深挖，三面重点考察AI Agent设计能力。'
+category: '求职作战室'
+tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
-pinned: false
-comment: true
 ---
 
 # AI｜985硕校招｜阿里淘天AI 应用开发二三面已offer
