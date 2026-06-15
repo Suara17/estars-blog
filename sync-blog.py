@@ -98,8 +98,9 @@ def extract_title(content: str, fname: str) -> str:
 
 
 def extract_description(content: str) -> str:
-    """从文件前几行提取简短描述（200字内）"""
+    """从文件前几行提取简短描述（120字内，去掉markdown标记和引号）"""
     lines = content.split("\n")
+    desc = ""
     for line in lines:
         line = line.strip()
         if not line:
@@ -108,8 +109,14 @@ def extract_description(content: str) -> str:
             continue
         if line.startswith("name:") or line.startswith("description:"):
             continue
-        return line[:197] + "..." if len(line) > 200 else line
-    return ""
+        clean = re.sub(r'[#*_\[\]`>|\\]', '', line).strip()
+        if clean:
+            desc = clean[:120]
+            break
+    desc = desc.replace("'", "").replace('"', "").strip()
+    if not desc:
+        desc = "博客同步文章"
+    return desc
 
 
 def build_frontmatter(title: str, category: str, tags: list, description: str) -> str:
