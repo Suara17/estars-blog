@@ -144,12 +144,12 @@ def strip_old_frontmatter(content: str) -> str:
 
 
 def main():
-    # 加载已发布文件集合
+    # 加载已发布文件集合（统一小写，适配大小写不敏感文件系统）
     published = set()
     if os.path.exists(POSTS_DIR):
         for f in os.listdir(POSTS_DIR):
             if f.endswith(".md"):
-                published.add(f)
+                published.add(f.lower())
 
     new_files = []
 
@@ -170,7 +170,7 @@ def main():
                         post_name = f"{src['prefix']}-{fname}"
                     else:
                         post_name = f"{src['prefix']}-{rel_dir}-{fname}"
-                    if post_name in published:
+                    if post_name.lower() in published:
                         continue
                     src_file = os.path.join(root, fname)
                     with open(src_file, "r", encoding="utf-8") as f:
@@ -191,7 +191,7 @@ def main():
                 if fname in src["exclude"]:
                     continue
                 post_name = f"{src['prefix']}-{fname}"
-                if post_name in published:
+                if post_name.lower() in published:
                     continue
                 src_file = os.path.join(src_path, fname)
                 with open(src_file, "r", encoding="utf-8") as f:
@@ -221,7 +221,8 @@ def main():
         ["env", "GIT_SSL_NO_VERIFY=1", "git", "-C", git_dir, "push", "origin", "main"],
     ]
     for cmd in cmds:
-        r = subprocess.run(" ".join(cmd), shell=True, capture_output=True, text=True)
+        # 使用列表形式直接传给 subprocess，避免 shell 拆分参数
+        r = subprocess.run(cmd, capture_output=True, text=True)
         print(r.stdout)
         if r.returncode != 0:
             if "nothing to commit" in r.stdout or "nothing to commit" in r.stderr:
