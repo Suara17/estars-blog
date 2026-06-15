@@ -73,7 +73,16 @@ SOURCES = [
         "exclude": ["README.md"],
         "subdir": False,
     },
-    # 7. 求职作战室/岗位情报
+    # 7. 外部精选/根目录（牛客AI面经等）
+    {
+        "path": f"{BASE}/外部精选",
+        "prefix": "外部精选",
+        "category": "外部精选",
+        "tags": ["外部精选", "牛客AI面经"],
+        "exclude": [],
+        "subdir": False,
+    },
+    # 8. 求职作战室/岗位情报
     {
         "path": f"{BASE}/求职作战室/岗位情报",
         "prefix": "求职作战室-岗位情报",
