@@ -1,12 +1,14 @@
 ---
-title: 'Obsidian 标签问题解决方案'
-published: 2026-06-15
-description: '在使用 Obsidian 查看小万工作间目录下的文档时，发现两类问题：'
-category: '航海图'
+title: "Obsidian 标签问题解决方案"
+published: 2026-06-14
+description: "在使用 Obsidian 查看小万工作间目录下的文档时，发现两类问题："
+category: "航海图"
 tags: ['航海图', '操作指南']
 draft: false
 lang: zh-CN
----# Obsidian 标签问题解决方案
+---
+
+# Obsidian 标签问题解决方案
 
 ## 问题描述
 

@@ -1,12 +1,14 @@
 ---
-title: 'Re_Reading_SpringAI_实现'
-published: 2026-06-15
-description: 'ReReadingSpringAI实现'
-category: '求职作战室'
+title: "Re_Reading_SpringAI_实现"
+published: 2026-06-14
+description: "Re_Reading_SpringAI_实现"
+category: "求职作战室"
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----# Re_Reading_SpringAI_实现
+---
+
+# Re_Reading_SpringAI_实现
 ## 问题
 Re_Reading_SpringAI_实现
 

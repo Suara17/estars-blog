@@ -1,12 +1,14 @@
 ---
-title: 'Contextual_Query_Augmentation'
-published: 2026-06-15
-description: 'ContextualQueryAugmentation'
-category: '求职作战室'
+title: "Contextual_Query_Augmentation"
+published: 2026-06-14
+description: "Contextual_Query_Augmentation"
+category: "求职作战室"
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----# Contextual_Query_Augmentation
+---
+
+# Contextual_Query_Augmentation
 ## 问题
 Contextual_Query_Augmentation
 

@@ -1,12 +1,14 @@
 ---
-title: 'Spring_AI_Modular_RAG_Architecture'
-published: 2026-06-15
-description: 'SpringAIModularRAGArchitecture'
-category: '求职作战室'
+title: "Spring_AI_Modular_RAG_Architecture"
+published: 2026-06-14
+description: "Spring_AI_Modular_RAG_Architecture"
+category: "求职作战室"
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----# Spring_AI_Modular_RAG_Architecture
+---
+
+# Spring_AI_Modular_RAG_Architecture
 ## 问题
 Spring_AI_Modular_RAG_Architecture
 

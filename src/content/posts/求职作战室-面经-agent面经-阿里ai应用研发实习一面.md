@@ -1,12 +1,14 @@
 ---
-title: '阿里 AI 应用研发实习一面面经'
-published: 2026-06-15
-description: '1. AI Agents 和大模型的本质区别是什么？'
-category: '求职作战室'
+title: "阿里 AI 应用研发实习一面面经"
+published: 2026-06-14
+description: "1. **AI Agents 和大模型的本质区别是什么？**"
+category: "求职作战室"
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----# 阿里 AI 应用研发实习一面面经
+---
+
+# 阿里 AI 应用研发实习一面面经
 
 > 来源：小红书 @未知作者
 > 原文链接：https://www.xiaohongshu.com/discovery/item/6a054355000000003501fec8

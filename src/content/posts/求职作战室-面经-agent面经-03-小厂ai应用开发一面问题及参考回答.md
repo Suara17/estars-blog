@@ -1,12 +1,14 @@
 ---
-title: '小厂AI应用开发一面问题及参考回答'
-published: 2026-06-15
-description: '参考回答：'
-category: '求职作战室'
+title: "小厂AI应用开发一面问题及参考回答"
+published: 2026-06-14
+description: "**参考回答**："
+category: "求职作战室"
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----# 小厂AI应用开发一面问题及参考回答
+---
+
+# 小厂AI应用开发一面问题及参考回答
 
 ## 4. 讲下skill的运作机制，skill的内容是以什么形式返回给大模型的？
 

@@ -1,12 +1,14 @@
 ---
-title: 'Context_Engine_Abstraction'
-published: 2026-06-15
-description: 'ContextEngineAbstraction'
-category: '求职作战室'
+title: "Context_Engine_Abstraction"
+published: 2026-06-14
+description: "Context_Engine_Abstraction"
+category: "求职作战室"
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----# Context_Engine_Abstraction
+---
+
+# Context_Engine_Abstraction
 ## 问题
 Context_Engine_Abstraction
 

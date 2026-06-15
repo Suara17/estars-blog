@@ -1,12 +1,14 @@
 ---
-title: 'Agent 项目冲大厂实习建议（摘自小红书笔记）'
-published: 2026-06-15
-description: '1. 展示技术 taste（审美）'
-category: '求职作战室'
+title: "Agent 项目冲大厂实习建议（摘自小红书笔记）"
+published: 2026-06-14
+description: "1. **展示技术 taste（审美）**"
+category: "求职作战室"
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----# Agent 项目冲大厂实习建议（摘自小红书笔记）
+---
+
+# Agent 项目冲大厂实习建议（摘自小红书笔记）
 
 > 来源：小红书「黄同学h」  
 > 链接：http://xhslink.com/o/9Nubmmnrl54  

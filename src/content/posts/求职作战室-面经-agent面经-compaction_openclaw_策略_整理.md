@@ -1,12 +1,14 @@
 ---
-title: 'Compaction_OpenClaw_策略'
-published: 2026-06-15
-description: 'CompactionOpenClaw策略'
-category: '求职作战室'
+title: "Compaction_OpenClaw_策略"
+published: 2026-06-14
+description: "Compaction_OpenClaw_策略"
+category: "求职作战室"
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----# Compaction_OpenClaw_策略
+---
+
+# Compaction_OpenClaw_策略
 ## 问题
 Compaction_OpenClaw_策略
 

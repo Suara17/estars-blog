@@ -1,12 +1,14 @@
 ---
-title: 'Multi_Knowledge_Base_RAG'
-published: 2026-06-15
-description: 'MultiKnowledgeBaseRAG'
-category: '求职作战室'
+title: "Multi_Knowledge_Base_RAG"
+published: 2026-06-14
+description: "Multi_Knowledge_Base_RAG"
+category: "求职作战室"
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----# Multi_Knowledge_Base_RAG
+---
+
+# Multi_Knowledge_Base_RAG
 ## 问题
 Multi_Knowledge_Base_RAG
 

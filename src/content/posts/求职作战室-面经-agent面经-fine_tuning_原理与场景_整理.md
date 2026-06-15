@@ -1,12 +1,14 @@
 ---
-title: 'Fine_Tuning_原理与场景'
-published: 2026-06-15
-description: 'FineTuning原理与场景'
-category: '求职作战室'
+title: "Fine_Tuning_原理与场景"
+published: 2026-06-14
+description: "Fine_Tuning_原理与场景"
+category: "求职作战室"
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----# Fine_Tuning_原理与场景
+---
+
+# Fine_Tuning_原理与场景
 ## 问题
 Fine_Tuning_原理与场景
 

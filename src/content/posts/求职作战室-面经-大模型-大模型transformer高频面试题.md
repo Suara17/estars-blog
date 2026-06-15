@@ -1,12 +1,14 @@
 ---
-title: '大模型 & Transformer 高频面试题及答案'
-published: 2026-06-15
-description: 'Transformer 分两半——Encoder 和 Decoder，每半都是 N 个一样的层叠在一起。'
-category: '求职作战室'
+title: "大模型 & Transformer 高频面试题及答案"
+published: 2026-06-14
+description: "Transformer 分两半——Encoder 和 Decoder，每半都是 N 个一样的层叠在一起。"
+category: "求职作战室"
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----# 大模型 & Transformer 高频面试题及答案
+---
+
+# 大模型 & Transformer 高频面试题及答案
 
 > 🎯 适用岗位：算法工程师、AI 应用开发、大模型研发
 > 📅 整理日期：2026-06-07

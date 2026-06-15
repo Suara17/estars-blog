@@ -1,12 +1,14 @@
 ---
-title: 'SpringAI_SuperAgent_应用与特性'
-published: 2026-06-15
-description: 'SpringAISuperAgent应用与特性'
-category: '求职作战室'
+title: "SpringAI_SuperAgent_应用与特性"
+published: 2026-06-14
+description: "SpringAI_SuperAgent_应用与特性"
+category: "求职作战室"
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----# SpringAI_SuperAgent_应用与特性
+---
+
+# SpringAI_SuperAgent_应用与特性
 ## 问题
 SpringAI_SuperAgent_应用与特性
 
