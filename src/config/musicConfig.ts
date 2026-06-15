@@ -56,6 +56,13 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				cover: "/assets/music/cover/109951169585655912.webp",
 				lrc: "",
 			},
+			{
+				name: "溯🪐",
+				artist: "言色🛸",
+				url: "/assets/music/溯手碟-手碟纯享版.mp3",
+				cover: "/assets/music/cover/溯手碟-封面.jpg",
+				lrc: "",
+			},
 		],
 	},
 };
