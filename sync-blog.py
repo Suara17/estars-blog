@@ -9,7 +9,7 @@ import os
 import re
 import subprocess
 import sys
-from datetime import date
+from datetime import date, datetime
 
 BASE = "/workspace/小万工作间"
 POSTS_DIR = f"{BASE}/estars-blog/src/content/posts"
@@ -134,6 +134,12 @@ lang: zh-CN
 ---"""
 
 
+def is_modified_today(filepath: str) -> bool:
+    """检查文件的修改日期是否是今天"""
+    mtime = os.path.getmtime(filepath)
+    return datetime.fromtimestamp(mtime).date() == date.today()
+
+
 def strip_old_frontmatter(content: str) -> str:
     """如果已有 frontmatter（---...---），去掉它"""
     if content.startswith("---"):
@@ -144,13 +150,6 @@ def strip_old_frontmatter(content: str) -> str:
 
 
 def main():
-    # 加载已发布文件集合（统一小写，适配大小写不敏感文件系统）
-    published = set()
-    if os.path.exists(POSTS_DIR):
-        for f in os.listdir(POSTS_DIR):
-            if f.endswith(".md"):
-                published.add(f.lower())
-
     new_files = []
 
     for src in SOURCES:
@@ -170,9 +169,9 @@ def main():
                         post_name = f"{src['prefix']}-{fname}"
                     else:
                         post_name = f"{src['prefix']}-{rel_dir}-{fname}"
-                    if post_name.lower() in published:
-                        continue
                     src_file = os.path.join(root, fname)
+                    if not is_modified_today(src_file):
+                        continue
                     with open(src_file, "r", encoding="utf-8") as f:
                         content = f.read()
                     title = extract_title(content, fname)
@@ -191,9 +190,9 @@ def main():
                 if fname in src["exclude"]:
                     continue
                 post_name = f"{src['prefix']}-{fname}"
-                if post_name.lower() in published:
-                    continue
                 src_file = os.path.join(src_path, fname)
+                if not is_modified_today(src_file):
+                    continue
                 with open(src_file, "r", encoding="utf-8") as f:
                     content = f.read()
                 title = extract_title(content, fname)
