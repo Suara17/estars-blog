@@ -1,14 +1,12 @@
 ---
-title: "ReAct_模式构建自主规划智能体"
-published: 2026-06-14
-description: "ReAct_模式构建自主规划智能体"
-category: "求职作战室"
+title: 'ReAct_模式构建自主规划智能体'
+published: 2026-06-15
+description: 'ReAct模式构建自主规划智能体'
+category: '求职作战室'
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----
-
-# ReAct_模式构建自主规划智能体
+---# ReAct_模式构建自主规划智能体
 ## 问题
 ReAct_模式构建自主规划智能体
 

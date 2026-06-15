@@ -1,14 +1,12 @@
 ---
-title: "Tool_Calling_SpringAI"
-published: 2026-06-14
-description: "Tool_Calling_SpringAI"
-category: "求职作战室"
+title: 'Tool_Calling_SpringAI'
+published: 2026-06-15
+description: 'ToolCallingSpringAI'
+category: '求职作战室'
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----
-
-# Tool_Calling_SpringAI
+---# Tool_Calling_SpringAI
 ## 问题
 Tool_Calling_SpringAI
 

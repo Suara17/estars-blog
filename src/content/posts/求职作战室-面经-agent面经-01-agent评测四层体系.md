@@ -1,14 +1,12 @@
 ---
-title: "Agent 评测四层体系"
-published: 2026-06-14
-description: "确保系统每次改动后仍能稳定运行，否则无法判断是否“改坏”。"
-category: "求职作战室"
+title: 'Agent 评测四层体系'
+published: 2026-06-15
+description: '确保系统每次改动后仍能稳定运行，否则无法判断是否“改坏”。'
+category: '求职作战室'
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----
-
-# Agent 评测四层体系
+---# Agent 评测四层体系
 
 ## 第一层：保底
 确保系统每次改动后仍能稳定运行，否则无法判断是否“改坏”。

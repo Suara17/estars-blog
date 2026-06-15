@@ -1,14 +1,12 @@
 ---
-title: "腾讯 AI 应用开发 一面"
-published: 2026-06-14
-description: "**来源**：小红书笔记（作者：逸，2026-04-11）"
-category: "求职作战室"
+title: '腾讯 AI 应用开发 一面'
+published: 2026-06-15
+description: '来源：小红书笔记（作者：逸，2026-04-11）'
+category: '求职作战室'
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----
-
-# 腾讯 AI 应用开发 一面
+---# 腾讯 AI 应用开发 一面
 
 **来源**：小红书笔记（作者：逸，2026-04-11）  
 **链接**：http://xhslink.com/o/2yiaDG9CXww  

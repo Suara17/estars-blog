@@ -1,14 +1,12 @@
 ---
-title: "AI_Generate_CRUD_Code_现场实操"
-published: 2026-06-14
-description: "AI_Generate_CRUD_Code_现场实操"
-category: "求职作战室"
+title: 'AI_Generate_CRUD_Code_现场实操'
+published: 2026-06-15
+description: 'AIGenerateCRUDCode现场实操'
+category: '求职作战室'
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----
-
-# AI_Generate_CRUD_Code_现场实操
+---# AI_Generate_CRUD_Code_现场实操
 ## 问题
 AI_Generate_CRUD_Code_现场实操
 

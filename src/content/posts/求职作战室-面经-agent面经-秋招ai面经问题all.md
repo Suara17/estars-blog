@@ -1,14 +1,12 @@
 ---
-title: "秋招以来的AI面经问题 All"
-published: 2026-06-14
-description: "1. 为什么做 Agent 项目？"
-category: "求职作战室"
+title: '秋招以来的AI面经问题 All'
+published: 2026-06-15
+description: '1. 为什么做 Agent 项目？'
+category: '求职作战室'
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----
-
-# 秋招以来的AI面经问题 All
+---# 秋招以来的AI面经问题 All
 
 > 来源：小红书 @玖
 > 原文链接：http://xhslink.com/o/4THd9NZseQI

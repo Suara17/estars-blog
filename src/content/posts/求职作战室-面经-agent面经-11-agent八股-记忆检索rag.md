@@ -1,14 +1,12 @@
 ---
-title: "Agent八股分享：一天速通记忆/检索（RAG）"
-published: 2026-06-14
-description: "**来源**：小红书笔记"
-category: "求职作战室"
+title: 'Agent八股分享：一天速通记忆/检索（RAG）'
+published: 2026-06-15
+description: '来源：小红书笔记'
+category: '求职作战室'
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----
-
-# Agent八股分享：一天速通记忆/检索（RAG）
+---# Agent八股分享：一天速通记忆/检索（RAG）
 
 **来源**：小红书笔记  
 **链接**：http://xhslink.com/o/8tkHC8Q3yVK  

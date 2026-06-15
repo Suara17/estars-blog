@@ -1,14 +1,12 @@
 ---
-title: "滴滴 AI 全栈开发 一面（不区分前后端）"
-published: 2026-06-14
-description: "**来源**：小红书笔记"
-category: "求职作战室"
+title: '滴滴 AI 全栈开发 一面（不区分前后端）'
+published: 2026-06-15
+description: '来源：小红书笔记'
+category: '求职作战室'
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----
-
-# 滴滴 AI 全栈开发 一面（不区分前后端）
+---# 滴滴 AI 全栈开发 一面（不区分前后端）
 
 **来源**：小红书笔记  
 **链接**：http://xhslink.com/o/5d3Gt8uZdSq  

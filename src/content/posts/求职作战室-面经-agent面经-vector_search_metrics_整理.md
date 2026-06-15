@@ -1,14 +1,12 @@
 ---
-title: "Vector_Search_Metrics"
-published: 2026-06-14
-description: "Vector_Search_Metrics"
-category: "求职作战室"
+title: 'Vector_Search_Metrics'
+published: 2026-06-15
+description: 'VectorSearchMetrics'
+category: '求职作战室'
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----
-
-# Vector_Search_Metrics
+---# Vector_Search_Metrics
 ## 问题
 Vector_Search_Metrics
 

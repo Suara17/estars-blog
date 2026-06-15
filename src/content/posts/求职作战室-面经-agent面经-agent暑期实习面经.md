@@ -1,14 +1,12 @@
 ---
-title: "Agent暑期实习面经"
-published: 2026-06-14
-description: "我从后端转 Agent，但是简历里没写任何后端内容，某种程度上缩减了面试官拷打的范围，因此大部分时间都在深挖项目，几乎没有任何传统后端八股。"
-category: "求职作战室"
+title: 'Agent暑期实习面经'
+published: 2026-06-15
+description: '我从后端转 Agent，但是简历里没写任何后端内容，某种程度上缩减了面试官拷打的范围，因此大部分时间都在深挖项目，几乎没有任何传统后端八股。'
+category: '求职作战室'
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----
-
-# Agent暑期实习面经
+---# Agent暑期实习面经
 
 > 来源：小红书 @菌菌
 > 原文链接：http://xhslink.com/o/1bp55UaMqkL

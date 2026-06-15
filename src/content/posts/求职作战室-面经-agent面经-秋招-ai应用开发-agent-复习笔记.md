@@ -1,14 +1,12 @@
 ---
-title: "🎯 AI 应用开发 / Agent 方向 · 秋招复习笔记"
-published: 2026-06-14
-description: "1. [Agent 核心概念与架构](#1-agent-核心概念与架构)"
-category: "求职作战室"
+title: '🎯 AI 应用开发 / Agent 方向 · 秋招复习笔记'
+published: 2026-06-15
+description: '1. Agent 核心概念与架构(1-agent-核心概念与架构)'
+category: '求职作战室'
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----
-
-# 🎯 AI 应用开发 / Agent 方向 · 秋招复习笔记
+---# 🎯 AI 应用开发 / Agent 方向 · 秋招复习笔记
 
 > 📅 整理时间：2026-06-02
 > 📚 来源：基于 workspace 内 18 份面经资料整合

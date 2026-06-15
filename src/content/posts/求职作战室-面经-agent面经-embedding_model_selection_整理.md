@@ -1,14 +1,12 @@
 ---
-title: "Embedding_Model_Selection"
-published: 2026-06-14
-description: "Embedding_Model_Selection"
-category: "求职作战室"
+title: 'Embedding_Model_Selection'
+published: 2026-06-15
+description: 'EmbeddingModelSelection'
+category: '求职作战室'
 tags: ['求职作战室', '面经']
 draft: false
 lang: zh-CN
----
-
-# Embedding_Model_Selection
+---# Embedding_Model_Selection
 ## 问题
 Embedding_Model_Selection
 
