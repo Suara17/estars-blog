@@ -7,6 +7,7 @@
 """
 import os
 import re
+import hashlib
 import subprocess
 import sys
 from datetime import date, datetime
@@ -124,6 +125,16 @@ def strip_old_frontmatter(content: str) -> str:
     return content
 
 
+def is_content_unchanged(post_path: str, body: str) -> bool:
+    """检查 posts 目录中已存在的文件，去掉 frontmatter 后与当前正文是否一致"""
+    if not os.path.isfile(post_path):
+        return False
+    with open(post_path, "r", encoding="utf-8") as f:
+        existing = f.read()
+    existing_body = strip_old_frontmatter(existing)
+    return existing_body.strip() == body.strip()
+
+
 def cleanup_removed_posts():
     """删除不再同步的旧博文（匹配 CLEANUP_PREFIXES）"""
     deleted = 0
@@ -185,8 +196,12 @@ def main():
                     title = extract_title(content, fname)
                     desc = extract_description(content)
                     body = strip_old_frontmatter(content)
+                    post_path = os.path.join(POSTS_DIR, post_name)
+                    if is_content_unchanged(post_path, body):
+                        print(f"  ⏭️ 跳过: {post_name} (内容无变化)")
+                        continue
                     full = build_frontmatter(title, src["category"], src["tags"], desc) + body
-                    with open(os.path.join(POSTS_DIR, post_name), "w", encoding="utf-8") as f:
+                    with open(post_path, "w", encoding="utf-8") as f:
                         f.write(full)
                     print(f"  📝 新增: {post_name}")
                     new_files.append(post_name)
@@ -206,8 +221,12 @@ def main():
                 title = extract_title(content, fname)
                 desc = extract_description(content)
                 body = strip_old_frontmatter(content)
+                post_path = os.path.join(POSTS_DIR, post_name)
+                if is_content_unchanged(post_path, body):
+                    print(f"  ⏭️ 跳过: {post_name} (内容无变化)")
+                    continue
                 full = build_frontmatter(title, src["category"], src["tags"], desc) + body
-                with open(os.path.join(POSTS_DIR, post_name), "w", encoding="utf-8") as f:
+                with open(post_path, "w", encoding="utf-8") as f:
                     f.write(full)
                 print(f"  📝 新增: {post_name}")
                 new_files.append(post_name)
