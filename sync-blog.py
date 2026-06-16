@@ -37,60 +37,26 @@ SOURCES = [
         "exclude": [],
         "subdir": False,
     },
-    # 3. 求职作战室/面经（含子目录递归）
+    # 3. 求职作战室/整理版
     {
-        "path": f"{BASE}/求职作战室/面经",
-        "prefix": "求职作战室-面经",
+        "path": f"{BASE}/求职作战室/整理版",
+        "prefix": "求职作战室-整理版",
         "category": "求职作战室",
-        "tags": ["求职作战室", "面经"],
+        "tags": ["求职作战室", "整理版"],
         "exclude": [],
         "subdir": True,
     },
-    # 4. 外部精选/L站精选
-    {
-        "path": f"{BASE}/外部精选/L站精选",
-        "prefix": "外部精选",
-        "category": "外部精选",
-        "tags": ["外部精选", "L站精选", "LINUX DO"],
-        "exclude": [],
-        "subdir": False,
-    },
-    # 5. 外部精选/公众号精选
-    {
-        "path": f"{BASE}/外部精选/公众号精选",
-        "prefix": "外部精选",
-        "category": "外部精选",
-        "tags": ["外部精选", "公众号精选"],
-        "exclude": [],
-        "subdir": False,
-    },
-    # 6. 外部精选/小红书精选
-    {
-        "path": f"{BASE}/外部精选/小红书精选",
-        "prefix": "外部精选-小红书精选",
-        "category": "外部精选",
-        "tags": ["外部精选", "小红书精选"],
-        "exclude": ["README.md"],
-        "subdir": False,
-    },
-    # 7. 外部精选/根目录（牛客AI面经等）
-    {
-        "path": f"{BASE}/外部精选",
-        "prefix": "外部精选",
-        "category": "外部精选",
-        "tags": ["外部精选", "牛客AI面经"],
-        "exclude": [],
-        "subdir": False,
-    },
-    # 8. 求职作战室/岗位情报
-    {
-        "path": f"{BASE}/求职作战室/岗位情报",
-        "prefix": "求职作战室-岗位情报",
-        "category": "求职作战室",
-        "tags": ["求职作战室", "岗位情报"],
-        "exclude": [],
-        "subdir": False,
-    },
+]
+
+# ============================================================
+# 要删除的旧博文前缀（后续不再同步的目录）
+# ============================================================
+CLEANUP_PREFIXES = [
+    "外部精选-",
+    "求职作战室-岗位情报-",
+    "求职作战室-面经-",
+    "求职作战室-简历材料-",
+    "求职作战室-基础题库-",
 ]
 
 
@@ -158,8 +124,41 @@ def strip_old_frontmatter(content: str) -> str:
     return content
 
 
+def cleanup_removed_posts():
+    """删除不再同步的旧博文（匹配 CLEANUP_PREFIXES）"""
+    deleted = 0
+    if not os.path.isdir(POSTS_DIR):
+        return deleted
+    for fname in sorted(os.listdir(POSTS_DIR)):
+        if not fname.endswith(".md"):
+            continue
+        for prefix in CLEANUP_PREFIXES:
+            if fname.startswith(prefix):
+                os.remove(os.path.join(POSTS_DIR, fname))
+                print(f"  🗑️ 删除: {fname}")
+                deleted += 1
+                break
+    return deleted
+
+
 def main():
     new_files = []
+    deleted = []
+
+    # 第一步：清理不再同步的旧博文
+    print("🔍 检查需要删除的旧博文...")
+    if os.path.isdir(POSTS_DIR):
+        for fname in sorted(os.listdir(POSTS_DIR)):
+            if not fname.endswith(".md"):
+                continue
+            for prefix in CLEANUP_PREFIXES:
+                if fname.startswith(prefix):
+                    os.remove(os.path.join(POSTS_DIR, fname))
+                    print(f"  🗑️ 删除: {fname}")
+                    deleted.append(fname)
+                    break
+    print(f"📊 删除统计: {len(deleted)} 篇")
+    print()
 
     for src in SOURCES:
         src_path = src["path"]
