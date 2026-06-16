@@ -1,6 +1,6 @@
 # 关于本站
 
-你好，这里是 **Estars的收藏夹**。
+你好，这里是 **Estars的博客**。
 
 这是一个基于 **Astro + Firefly** 搭建的个人博客，托管在 **Cloudflare Pages**。
 

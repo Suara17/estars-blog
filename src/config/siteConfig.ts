@@ -4,12 +4,12 @@ import { fontConfig } from "./fontConfig";
 const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
-	title: "Estars的收藏夹",
+	title: "Estars博客",
 	subtitle: "这条路要走完，才能看到世界的终点，是海纳百川，还是星火燎原。",
 	site_url: "https://estars-blog.pages.dev",
 	description:
-		"Estars的收藏夹，基于 Firefly 与 Astro 搭建的博客。",
-	keywords: ["Estars", "收藏夹", "Astro", "Firefly", "Cloudflare Pages"],
+		"Estars的博客，基于 Firefly 与 Astro 搭建。",
+	keywords: ["Estars", "博客", "Astro", "Firefly", "Cloudflare Pages"],
 	themeColor: {
 		hue: 165,
 		fixed: false,
@@ -28,9 +28,9 @@ export const siteConfig: SiteConfig = {
 		logo: {
 			type: "image",
 			value: "/uploads/avatar/头像图.jpg",
-			alt: "Estars的收藏夹",
+			alt: "Estars博客",
 		},
-		title: "Estars收藏夹",
+		title: "Estars博客",
 		widthFull: false,
 		menuAlign: "center",
 		followTheme: false,
