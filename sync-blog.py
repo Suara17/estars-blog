@@ -20,39 +20,30 @@ TODAY = date.today().isoformat()
 # 要扫描的源目录定义（增删改这里即可）
 # ============================================================
 SOURCES = [
-    # 1. 航海图/操作指南
+    # 1. 操作指南（只扫描直接子文件，不进入 raw/）
     {
-        "path": f"{BASE}/航海图/操作指南",
-        "prefix": "航海图-操作指南",
-        "category": "航海图",
-        "tags": ["航海图", "操作指南"],
+        "path": f"{BASE}/操作指南",
+        "prefix": "操作指南",
+        "category": "操作指南",
+        "tags": ["操作指南"],
         "exclude": ["estars-blog博客站维护指南.md"],
         "subdir": False,
     },
-    # 2. 工程现场/实战.经验
+    # 2. 经验贴
     {
-        "path": f"{BASE}/工程现场/实战.经验",
-        "prefix": "工程现场-实战.经验",
-        "category": "工程现场",
-        "tags": ["工程现场", "实战", "经验"],
+        "path": f"{BASE}/经验贴",
+        "prefix": "经验贴",
+        "category": "经验贴",
+        "tags": ["经验贴"],
         "exclude": [],
         "subdir": False,
     },
-    # 3. 求职作战室/整理版
+    # 3. 精华
     {
-        "path": f"{BASE}/求职作战室/整理版",
-        "prefix": "求职作战室-整理版",
-        "category": "求职作战室",
-        "tags": ["求职作战室", "整理版"],
-        "exclude": [],
-        "subdir": True,
-    },
-    # 4. 外部精选/外文翻译
-    {
-        "path": f"{BASE}/外部精选/外文翻译",
-        "prefix": "外部精选-外文翻译",
-        "category": "外部精选",
-        "tags": ["外部精选", "外文翻译"],
+        "path": f"{BASE}/精华",
+        "prefix": "精华",
+        "category": "精华",
+        "tags": ["精华"],
         "exclude": [],
         "subdir": False,
     },
